@@ -1,2 +1,2 @@
-# janamohamed02.github.io
+# The Upper East Side
 ![highlighted_map](HighlightedMap.png)
