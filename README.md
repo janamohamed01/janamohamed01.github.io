@@ -35,7 +35,7 @@ Greenhouse gas emissions in New York City primarily result from burning fossil f
 ## HC 7 & 8 
 ![first graph](MeanBoilerCapacity.png)
 
-
+![second graph](Mean Total MMBTU (High).png) 
 
 ## Interactive Map
 <iframe src="UpperEastLocations.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
