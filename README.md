@@ -33,6 +33,19 @@ New York City has implemented several environmental programs, including the NYC 
 Greenhouse gas emissions in New York City primarily result from burning fossil fuels for electricity. The reliance on aging natural gas power plants contributes to greenhouse gas emissions and air pollutants that imapct the city's air quality and contribute to public health concerns. Buildings are the largest source of greenhouse gas emissions in the city. Particularly, large buildings constructed in the 1950s are major contributors to these emissions. Consequently, NYC City Council passed Local Law 97 in 2019, targeting an 80% reduction in greenhouse gas emissions by 2050, with a focus on large buildings. Manhattan, due to its numerous large buildings, is the borough with the highest emissions in the city. Furthermore, energy inefficient appliances further contribute to the city's electricity consumption. Consequently, new legislation starting in 2026 will ban the use of fossil fuels in most new buildings of seven stories or less. Overall, New York City is committed to its efforts to control greenhouse gas emissions and combat climate change.
 
 ## HC 7 & 8 
+![first graph](MeanBoilerCapacity.png)
+
+![second graph](MeanTotalGallons(High).png)
+
+![third graph](MeanTotalGallons(Low).png)
+
+![fourth graph](MeanTotalMMBTU(High).png)
+
+![fifth graph](MeanTotalMMBTU(Low).png)
+
+![sixth graph](BoilerAgeRanges.png)
+
+![seventh graph](GreenerGreater.png)
 
 
 ## Interactive Map
