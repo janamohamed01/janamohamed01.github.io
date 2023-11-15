@@ -1,0 +1,3765 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c435b89ff452d3e42704bb12d6065b3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9c435b89ff452d3e42704bb12d6065b3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9c435b89ff452d3e42704bb12d6065b3 = L.map(
+                "map_9c435b89ff452d3e42704bb12d6065b3",
+                {
+                    center: [40.7831, -73.9712],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ec8b59346bfe58d9b53151c048a9e295 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+            var marker_ada764ef651c28855bd8222e12881152 = L.marker(
+                [40.779925, -73.953193],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e1acf3537ed5b250b96e90282210908c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fadf2a2123406e2605f12bc99d864f9a = $(`<div id="html_fadf2a2123406e2605f12bc99d864f9a" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e1acf3537ed5b250b96e90282210908c.setContent(html_fadf2a2123406e2605f12bc99d864f9a);
+            
+        
+
+        marker_ada764ef651c28855bd8222e12881152.bindPopup(popup_e1acf3537ed5b250b96e90282210908c)
+        ;
+
+        
+    
+    
+            var marker_e0f7b1dac06b2e19eb47f4538c34c2a4 = L.marker(
+                [40.784278, -73.95318],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_68997185fb97f1144868d41db0bd6004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd39a888805d94f08d7f94326886c1d = $(`<div id="html_0dd39a888805d94f08d7f94326886c1d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_68997185fb97f1144868d41db0bd6004.setContent(html_0dd39a888805d94f08d7f94326886c1d);
+            
+        
+
+        marker_e0f7b1dac06b2e19eb47f4538c34c2a4.bindPopup(popup_68997185fb97f1144868d41db0bd6004)
+        ;
+
+        
+    
+    
+            var marker_0ae074d8b1836070c5aedc0aa7b82e25 = L.marker(
+                [40.763012, -73.969739],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2aab886321390c90481c8c091175c348 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95d9dcb34405be8367dd901149ef15f8 = $(`<div id="html_95d9dcb34405be8367dd901149ef15f8" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2aab886321390c90481c8c091175c348.setContent(html_95d9dcb34405be8367dd901149ef15f8);
+            
+        
+
+        marker_0ae074d8b1836070c5aedc0aa7b82e25.bindPopup(popup_2aab886321390c90481c8c091175c348)
+        ;
+
+        
+    
+    
+            var marker_4e68c7c7fb7f74eab3f01d7c286c9dec = L.marker(
+                [40.763012, -73.969739],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_98046dc9f28f2e0e2901d3982be6165c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5bb5dbb90dc98512417812cc283a3c3 = $(`<div id="html_a5bb5dbb90dc98512417812cc283a3c3" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_98046dc9f28f2e0e2901d3982be6165c.setContent(html_a5bb5dbb90dc98512417812cc283a3c3);
+            
+        
+
+        marker_4e68c7c7fb7f74eab3f01d7c286c9dec.bindPopup(popup_98046dc9f28f2e0e2901d3982be6165c)
+        ;
+
+        
+    
+    
+            var marker_7bae962577322ded67ad94c2e3c4379f = L.marker(
+                [40.764802, -73.972308],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ef013e53dff288b0dfaccb15212d973f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b52a4840b4f3dcefad6810fcebf6c94 = $(`<div id="html_5b52a4840b4f3dcefad6810fcebf6c94" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ef013e53dff288b0dfaccb15212d973f.setContent(html_5b52a4840b4f3dcefad6810fcebf6c94);
+            
+        
+
+        marker_7bae962577322ded67ad94c2e3c4379f.bindPopup(popup_ef013e53dff288b0dfaccb15212d973f)
+        ;
+
+        
+    
+    
+            var marker_b0d05ed75a911b5cb87b5473aabf0ae3 = L.marker(
+                [40.765609, -73.972022],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3fa05ad28dfea9f380f71374b277a14c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_991c9eb0fbb7f7363643a813eb7a78da = $(`<div id="html_991c9eb0fbb7f7363643a813eb7a78da" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3fa05ad28dfea9f380f71374b277a14c.setContent(html_991c9eb0fbb7f7363643a813eb7a78da);
+            
+        
+
+        marker_b0d05ed75a911b5cb87b5473aabf0ae3.bindPopup(popup_3fa05ad28dfea9f380f71374b277a14c)
+        ;
+
+        
+    
+    
+            var marker_2dadde97c9d85dc0dbc9f193732d73bb = L.marker(
+                [40.764854, -73.968853],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_5de643028890ead94f8b20909bba8a3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50612da61677a8b8d6fe18c69ce3fa59 = $(`<div id="html_50612da61677a8b8d6fe18c69ce3fa59" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_5de643028890ead94f8b20909bba8a3f.setContent(html_50612da61677a8b8d6fe18c69ce3fa59);
+            
+        
+
+        marker_2dadde97c9d85dc0dbc9f193732d73bb.bindPopup(popup_5de643028890ead94f8b20909bba8a3f)
+        ;
+
+        
+    
+    
+            var marker_c3809a8e5be179de7915fadded08a220 = L.marker(
+                [40.766616, -73.96891],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_91e91b00bd0a5127559311190824372b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dad40c05e7eeb366d5a3d0c1322f535 = $(`<div id="html_9dad40c05e7eeb366d5a3d0c1322f535" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_91e91b00bd0a5127559311190824372b.setContent(html_9dad40c05e7eeb366d5a3d0c1322f535);
+            
+        
+
+        marker_c3809a8e5be179de7915fadded08a220.bindPopup(popup_91e91b00bd0a5127559311190824372b)
+        ;
+
+        
+    
+    
+            var marker_bafa8cd88d600336aba4f014ab7ffc5b = L.marker(
+                [40.767928, -73.970036],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_5d0ea40c7c76361aa1bbd1454f510bc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32221e5a3aca06c12c15625af3d0712a = $(`<div id="html_32221e5a3aca06c12c15625af3d0712a" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_5d0ea40c7c76361aa1bbd1454f510bc2.setContent(html_32221e5a3aca06c12c15625af3d0712a);
+            
+        
+
+        marker_bafa8cd88d600336aba4f014ab7ffc5b.bindPopup(popup_5d0ea40c7c76361aa1bbd1454f510bc2)
+        ;
+
+        
+    
+    
+            var marker_e13e7f8d4ff108323b4f5b3d684909e5 = L.marker(
+                [40.768502, -73.969505],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3c7254c4c519bddf6d6a303dbb5fed6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c122a4280ad0e672983f14aefedf5be3 = $(`<div id="html_c122a4280ad0e672983f14aefedf5be3" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3c7254c4c519bddf6d6a303dbb5fed6f.setContent(html_c122a4280ad0e672983f14aefedf5be3);
+            
+        
+
+        marker_e13e7f8d4ff108323b4f5b3d684909e5.bindPopup(popup_3c7254c4c519bddf6d6a303dbb5fed6f)
+        ;
+
+        
+    
+    
+            var marker_73b5e183a08f89660535419030b002d3 = L.marker(
+                [40.768502, -73.969505],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_54076397f67886ce531fb716eba9c26e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd837b4200160d37408a8084fe922b91 = $(`<div id="html_dd837b4200160d37408a8084fe922b91" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_54076397f67886ce531fb716eba9c26e.setContent(html_dd837b4200160d37408a8084fe922b91);
+            
+        
+
+        marker_73b5e183a08f89660535419030b002d3.bindPopup(popup_54076397f67886ce531fb716eba9c26e)
+        ;
+
+        
+    
+    
+            var marker_406b257aae31b7f058753040ae13f94b = L.marker(
+                [40.767733, -73.967635],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_600227f6b5c1ca574743fa4ea54c3c5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd201476aaa6b671ec624100ee4a740b = $(`<div id="html_fd201476aaa6b671ec624100ee4a740b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_600227f6b5c1ca574743fa4ea54c3c5e.setContent(html_fd201476aaa6b671ec624100ee4a740b);
+            
+        
+
+        marker_406b257aae31b7f058753040ae13f94b.bindPopup(popup_600227f6b5c1ca574743fa4ea54c3c5e)
+        ;
+
+        
+    
+    
+            var marker_0c49ddf4579fc6f6528f28dd29f0fb31 = L.marker(
+                [40.768391, -73.967296],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_7cd7714b7db80936718427b7d1d8c4d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c0c58fd8e0c19b4aca1b3055cca9707 = $(`<div id="html_5c0c58fd8e0c19b4aca1b3055cca9707" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_7cd7714b7db80936718427b7d1d8c4d2.setContent(html_5c0c58fd8e0c19b4aca1b3055cca9707);
+            
+        
+
+        marker_0c49ddf4579fc6f6528f28dd29f0fb31.bindPopup(popup_7cd7714b7db80936718427b7d1d8c4d2)
+        ;
+
+        
+    
+    
+            var marker_6c9b706cdb3f3ea198e405fe440ecc10 = L.marker(
+                [40.769223, -73.968988],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_7307953da8eaeba982eadda22c6e5039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a37d12f53e77b38820edd63f66cf1d50 = $(`<div id="html_a37d12f53e77b38820edd63f66cf1d50" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_7307953da8eaeba982eadda22c6e5039.setContent(html_a37d12f53e77b38820edd63f66cf1d50);
+            
+        
+
+        marker_6c9b706cdb3f3ea198e405fe440ecc10.bindPopup(popup_7307953da8eaeba982eadda22c6e5039)
+        ;
+
+        
+    
+    
+            var marker_335f4467c8d93081aeb2d5d776893228 = L.marker(
+                [40.769624, -73.96823],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_fc9a21725e27fd2a403d7298a3b48a73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bcd370e3b06453b5c0e7a58001ce9f4 = $(`<div id="html_5bcd370e3b06453b5c0e7a58001ce9f4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_fc9a21725e27fd2a403d7298a3b48a73.setContent(html_5bcd370e3b06453b5c0e7a58001ce9f4);
+            
+        
+
+        marker_335f4467c8d93081aeb2d5d776893228.bindPopup(popup_fc9a21725e27fd2a403d7298a3b48a73)
+        ;
+
+        
+    
+    
+            var marker_4a01ccc358f84b82a2e94609e5681895 = L.marker(
+                [40.769624, -73.96823],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_88eb7090d261d23d7de3c3c27b654a84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5750524de75ebef970a380e43df0c327 = $(`<div id="html_5750524de75ebef970a380e43df0c327" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_88eb7090d261d23d7de3c3c27b654a84.setContent(html_5750524de75ebef970a380e43df0c327);
+            
+        
+
+        marker_4a01ccc358f84b82a2e94609e5681895.bindPopup(popup_88eb7090d261d23d7de3c3c27b654a84)
+        ;
+
+        
+    
+    
+            var marker_d97ebcebcb88a1c8ba28253284e5f71a = L.marker(
+                [40.770365, -73.96806],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_dd0a809b7a7ae1f39df16b6cda3a2f9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c8c69eec3841a8e510d1f499efbe784 = $(`<div id="html_2c8c69eec3841a8e510d1f499efbe784" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_dd0a809b7a7ae1f39df16b6cda3a2f9b.setContent(html_2c8c69eec3841a8e510d1f499efbe784);
+            
+        
+
+        marker_d97ebcebcb88a1c8ba28253284e5f71a.bindPopup(popup_dd0a809b7a7ae1f39df16b6cda3a2f9b)
+        ;
+
+        
+    
+    
+            var marker_47a868b582272b86694ee8523fd9b2c7 = L.marker(
+                [40.771002, -73.967666],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_b5e4983efaf492deabb9ea4ea42ba9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb1aa47f6b9245b9c2886b304d5685ee = $(`<div id="html_fb1aa47f6b9245b9c2886b304d5685ee" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_b5e4983efaf492deabb9ea4ea42ba9a1.setContent(html_fb1aa47f6b9245b9c2886b304d5685ee);
+            
+        
+
+        marker_47a868b582272b86694ee8523fd9b2c7.bindPopup(popup_b5e4983efaf492deabb9ea4ea42ba9a1)
+        ;
+
+        
+    
+    
+            var marker_e426a9ce9cd23968afdf9a301f774ed6 = L.marker(
+                [40.771531, -73.964861],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_d29caaa11da3b030a7f7b3eb2537e68f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1a2e39412be8493d955d2ae1d9b1242 = $(`<div id="html_d1a2e39412be8493d955d2ae1d9b1242" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_d29caaa11da3b030a7f7b3eb2537e68f.setContent(html_d1a2e39412be8493d955d2ae1d9b1242);
+            
+        
+
+        marker_e426a9ce9cd23968afdf9a301f774ed6.bindPopup(popup_d29caaa11da3b030a7f7b3eb2537e68f)
+        ;
+
+        
+    
+    
+            var marker_eeefcdf84c1967c89a0305cca4cb4b8c = L.marker(
+                [40.771671, -73.965142],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9dfc35772a38845c4d31fd448d74ea5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83550bb9e15234f05a5f65461ef1af7c = $(`<div id="html_83550bb9e15234f05a5f65461ef1af7c" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9dfc35772a38845c4d31fd448d74ea5d.setContent(html_83550bb9e15234f05a5f65461ef1af7c);
+            
+        
+
+        marker_eeefcdf84c1967c89a0305cca4cb4b8c.bindPopup(popup_9dfc35772a38845c4d31fd448d74ea5d)
+        ;
+
+        
+    
+    
+            var marker_686c5d87f7fc50ed4d2ae3824211942d = L.marker(
+                [40.771522, -73.964792],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_f0bc2036d9a54f7b2014b3ec2b760c6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7fadfc423e17d65ce1b22220eaec32 = $(`<div id="html_ab7fadfc423e17d65ce1b22220eaec32" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_f0bc2036d9a54f7b2014b3ec2b760c6c.setContent(html_ab7fadfc423e17d65ce1b22220eaec32);
+            
+        
+
+        marker_686c5d87f7fc50ed4d2ae3824211942d.bindPopup(popup_f0bc2036d9a54f7b2014b3ec2b760c6c)
+        ;
+
+        
+    
+    
+            var marker_d83c55949f8ce6f1a10083fa6265db05 = L.marker(
+                [40.77259, -73.965261],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2b82a2b275a86dce4d13bb08544d6e6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffea9e536152eab368a8d8fdc1dacfff = $(`<div id="html_ffea9e536152eab368a8d8fdc1dacfff" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2b82a2b275a86dce4d13bb08544d6e6c.setContent(html_ffea9e536152eab368a8d8fdc1dacfff);
+            
+        
+
+        marker_d83c55949f8ce6f1a10083fa6265db05.bindPopup(popup_2b82a2b275a86dce4d13bb08544d6e6c)
+        ;
+
+        
+    
+    
+            var marker_d15f0b8adc71e2f3c62ede4cea70e115 = L.marker(
+                [40.77323, -73.966456],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_aeb624c822b15ece73593a369f40aff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e44fb29e6ed93d272ecc21130c91da = $(`<div id="html_c6e44fb29e6ed93d272ecc21130c91da" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_aeb624c822b15ece73593a369f40aff1.setContent(html_c6e44fb29e6ed93d272ecc21130c91da);
+            
+        
+
+        marker_d15f0b8adc71e2f3c62ede4cea70e115.bindPopup(popup_aeb624c822b15ece73593a369f40aff1)
+        ;
+
+        
+    
+    
+            var marker_d95d696b7f8074f393651d7aa04962c3 = L.marker(
+                [40.774116, -73.964899],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_17841421d982e611c076d993a9687d4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88a71a3417f3963fe0ebfaf695ec3a73 = $(`<div id="html_88a71a3417f3963fe0ebfaf695ec3a73" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_17841421d982e611c076d993a9687d4b.setContent(html_88a71a3417f3963fe0ebfaf695ec3a73);
+            
+        
+
+        marker_d95d696b7f8074f393651d7aa04962c3.bindPopup(popup_17841421d982e611c076d993a9687d4b)
+        ;
+
+        
+    
+    
+            var marker_a216978049ff5e4a88111b43bba354c8 = L.marker(
+                [40.774549, -73.964003],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a7f2e7f39b89109f3d1e6080d7fdb114 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18e27836add042baac73980b37d1d783 = $(`<div id="html_18e27836add042baac73980b37d1d783" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a7f2e7f39b89109f3d1e6080d7fdb114.setContent(html_18e27836add042baac73980b37d1d783);
+            
+        
+
+        marker_a216978049ff5e4a88111b43bba354c8.bindPopup(popup_a7f2e7f39b89109f3d1e6080d7fdb114)
+        ;
+
+        
+    
+    
+            var marker_fd14159a51d5f049d5b1d8d9526e0e92 = L.marker(
+                [40.774549, -73.964003],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a51b0f722ecb8de64b6c297359f7e271 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49822522e290d3fc589c30ae28f07a9b = $(`<div id="html_49822522e290d3fc589c30ae28f07a9b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a51b0f722ecb8de64b6c297359f7e271.setContent(html_49822522e290d3fc589c30ae28f07a9b);
+            
+        
+
+        marker_fd14159a51d5f049d5b1d8d9526e0e92.bindPopup(popup_a51b0f722ecb8de64b6c297359f7e271)
+        ;
+
+        
+    
+    
+            var marker_daabba72b4f0a94b2cb33dbdce69e084 = L.marker(
+                [40.774686, -73.96231],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_d240ce971c6a5751af450787e246f91c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2595e2ac35097da82b3296e86b6002c = $(`<div id="html_c2595e2ac35097da82b3296e86b6002c" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_d240ce971c6a5751af450787e246f91c.setContent(html_c2595e2ac35097da82b3296e86b6002c);
+            
+        
+
+        marker_daabba72b4f0a94b2cb33dbdce69e084.bindPopup(popup_d240ce971c6a5751af450787e246f91c)
+        ;
+
+        
+    
+    
+            var marker_ac4d78a47ced0fc9aab38f3378d74129 = L.marker(
+                [40.776035, -73.964418],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e8a6508326b1378eaccf5b87b236e984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ced729c942d4e40b1a49910dbc59cc83 = $(`<div id="html_ced729c942d4e40b1a49910dbc59cc83" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e8a6508326b1378eaccf5b87b236e984.setContent(html_ced729c942d4e40b1a49910dbc59cc83);
+            
+        
+
+        marker_ac4d78a47ced0fc9aab38f3378d74129.bindPopup(popup_e8a6508326b1378eaccf5b87b236e984)
+        ;
+
+        
+    
+    
+            var marker_91e9a9465cf0fca230c0d426ce9d1160 = L.marker(
+                [40.775496, -73.962306],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_be4f87afebe8ab21626f9762eb7db1bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1de4474587419401e8f56025095fd964 = $(`<div id="html_1de4474587419401e8f56025095fd964" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_be4f87afebe8ab21626f9762eb7db1bd.setContent(html_1de4474587419401e8f56025095fd964);
+            
+        
+
+        marker_91e9a9465cf0fca230c0d426ce9d1160.bindPopup(popup_be4f87afebe8ab21626f9762eb7db1bd)
+        ;
+
+        
+    
+    
+            var marker_c765ca22a6b5dbe2f3360e43bba7f1b1 = L.marker(
+                [40.764394, -73.965579],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_f15a278acc41b5410e97cf89e8592751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_875b065de9088651d65f22fc1bf3d8e3 = $(`<div id="html_875b065de9088651d65f22fc1bf3d8e3" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_f15a278acc41b5410e97cf89e8592751.setContent(html_875b065de9088651d65f22fc1bf3d8e3);
+            
+        
+
+        marker_c765ca22a6b5dbe2f3360e43bba7f1b1.bindPopup(popup_f15a278acc41b5410e97cf89e8592751)
+        ;
+
+        
+    
+    
+            var marker_4214191b6b87660b0d95c29d0742e45d = L.marker(
+                [40.765207, -73.967463],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_5b0dc03ca48d45e4e15024689059d7e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62636f7ba4fcb38acf29b9fd13c34b8a = $(`<div id="html_62636f7ba4fcb38acf29b9fd13c34b8a" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_5b0dc03ca48d45e4e15024689059d7e6.setContent(html_62636f7ba4fcb38acf29b9fd13c34b8a);
+            
+        
+
+        marker_4214191b6b87660b0d95c29d0742e45d.bindPopup(popup_5b0dc03ca48d45e4e15024689059d7e6)
+        ;
+
+        
+    
+    
+            var marker_aedc20db73f098972b5784f52175a546 = L.marker(
+                [40.765608, -73.96647],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_7e3fc182012598f2def313f851a9da44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0344051f3fcd6e53cff1582fe6d1f4d9 = $(`<div id="html_0344051f3fcd6e53cff1582fe6d1f4d9" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_7e3fc182012598f2def313f851a9da44.setContent(html_0344051f3fcd6e53cff1582fe6d1f4d9);
+            
+        
+
+        marker_aedc20db73f098972b5784f52175a546.bindPopup(popup_7e3fc182012598f2def313f851a9da44)
+        ;
+
+        
+    
+    
+            var marker_368bbdf6a30ccde1ba93f9a40a69e689 = L.marker(
+                [40.767096, -73.966737],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_0cce18df61b67417afe8a18ff846b3d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19e08fcd74f5925b25fa9512533d0966 = $(`<div id="html_19e08fcd74f5925b25fa9512533d0966" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_0cce18df61b67417afe8a18ff846b3d1.setContent(html_19e08fcd74f5925b25fa9512533d0966);
+            
+        
+
+        marker_368bbdf6a30ccde1ba93f9a40a69e689.bindPopup(popup_0cce18df61b67417afe8a18ff846b3d1)
+        ;
+
+        
+    
+    
+            var marker_dd1140cc68e1d22c44f1612c15efb4a3 = L.marker(
+                [40.767096, -73.966737],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e0067fab252e7c415c5835b170e1fe28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d8590d662b0667d734f2b355a5b28ed = $(`<div id="html_2d8590d662b0667d734f2b355a5b28ed" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e0067fab252e7c415c5835b170e1fe28.setContent(html_2d8590d662b0667d734f2b355a5b28ed);
+            
+        
+
+        marker_dd1140cc68e1d22c44f1612c15efb4a3.bindPopup(popup_e0067fab252e7c415c5835b170e1fe28)
+        ;
+
+        
+    
+    
+            var marker_c542425b4056eb6f6d7198e04d7e2951 = L.marker(
+                [40.766469, -73.964647],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_03c2624ed6eb9edce10042b8068daa95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30c1ec2c1b9352d27689bf59afe89da9 = $(`<div id="html_30c1ec2c1b9352d27689bf59afe89da9" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_03c2624ed6eb9edce10042b8068daa95.setContent(html_30c1ec2c1b9352d27689bf59afe89da9);
+            
+        
+
+        marker_c542425b4056eb6f6d7198e04d7e2951.bindPopup(popup_03c2624ed6eb9edce10042b8068daa95)
+        ;
+
+        
+    
+    
+            var marker_83b65b2cd51974aa1572348bcd5871d0 = L.marker(
+                [40.768591, -73.963841],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_f85348b2b12367b8d8494aae0bf723e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93291bbf380f5c38bb6d75fbe6eefe33 = $(`<div id="html_93291bbf380f5c38bb6d75fbe6eefe33" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_f85348b2b12367b8d8494aae0bf723e8.setContent(html_93291bbf380f5c38bb6d75fbe6eefe33);
+            
+        
+
+        marker_83b65b2cd51974aa1572348bcd5871d0.bindPopup(popup_f85348b2b12367b8d8494aae0bf723e8)
+        ;
+
+        
+    
+    
+            var marker_be1835c38f318529a5a60a82d23da8f8 = L.marker(
+                [40.768393, -73.963371],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_c2250afed97d825f8b68c044c92f3ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea214bbf4a2e70f57e6b83ec154e9f5c = $(`<div id="html_ea214bbf4a2e70f57e6b83ec154e9f5c" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_c2250afed97d825f8b68c044c92f3ae8.setContent(html_ea214bbf4a2e70f57e6b83ec154e9f5c);
+            
+        
+
+        marker_be1835c38f318529a5a60a82d23da8f8.bindPopup(popup_c2250afed97d825f8b68c044c92f3ae8)
+        ;
+
+        
+    
+    
+            var marker_eb6fe170f366f389b24ac8bf655247d6 = L.marker(
+                [40.770564, -73.964204],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3bfa02c67e5ab8a3912549f5d6e2b542 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33ebd32b60e5aef86a23ac325d791112 = $(`<div id="html_33ebd32b60e5aef86a23ac325d791112" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3bfa02c67e5ab8a3912549f5d6e2b542.setContent(html_33ebd32b60e5aef86a23ac325d791112);
+            
+        
+
+        marker_eb6fe170f366f389b24ac8bf655247d6.bindPopup(popup_3bfa02c67e5ab8a3912549f5d6e2b542)
+        ;
+
+        
+    
+    
+            var marker_cec6d3c01883948cc9df8d4b9d4f5daf = L.marker(
+                [40.770264, -73.96185],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_bfc0d6108afbedf7c6750110a78358a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6262f0642a508888e0a01d55fedb12a = $(`<div id="html_b6262f0642a508888e0a01d55fedb12a" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_bfc0d6108afbedf7c6750110a78358a2.setContent(html_b6262f0642a508888e0a01d55fedb12a);
+            
+        
+
+        marker_cec6d3c01883948cc9df8d4b9d4f5daf.bindPopup(popup_bfc0d6108afbedf7c6750110a78358a2)
+        ;
+
+        
+    
+    
+            var marker_efc50219ba48f526906ec28b05817bad = L.marker(
+                [40.770616, -73.962691],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1e4b92d48fb5741cf3eb84349b402fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cacdca3e3958811651a13519066cf0f = $(`<div id="html_7cacdca3e3958811651a13519066cf0f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1e4b92d48fb5741cf3eb84349b402fcd.setContent(html_7cacdca3e3958811651a13519066cf0f);
+            
+        
+
+        marker_efc50219ba48f526906ec28b05817bad.bindPopup(popup_1e4b92d48fb5741cf3eb84349b402fcd)
+        ;
+
+        
+    
+    
+            var marker_d9d0be8e467b72193d23f57745f5b583 = L.marker(
+                [40.770616, -73.962691],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_631cd31fe1592fb6a4c590d6c157ec5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbcb5768ac23ea1d9ad1418b20e22067 = $(`<div id="html_bbcb5768ac23ea1d9ad1418b20e22067" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_631cd31fe1592fb6a4c590d6c157ec5b.setContent(html_bbcb5768ac23ea1d9ad1418b20e22067);
+            
+        
+
+        marker_d9d0be8e467b72193d23f57745f5b583.bindPopup(popup_631cd31fe1592fb6a4c590d6c157ec5b)
+        ;
+
+        
+    
+    
+            var marker_5c800d9b8398d0ce908d2fd294ef9b56 = L.marker(
+                [40.77069, -73.962818],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_55fce8a524fc8533b0b1332cb1aaab08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3194307b4ac1f9f8bd6bd67750b7d1a3 = $(`<div id="html_3194307b4ac1f9f8bd6bd67750b7d1a3" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_55fce8a524fc8533b0b1332cb1aaab08.setContent(html_3194307b4ac1f9f8bd6bd67750b7d1a3);
+            
+        
+
+        marker_5c800d9b8398d0ce908d2fd294ef9b56.bindPopup(popup_55fce8a524fc8533b0b1332cb1aaab08)
+        ;
+
+        
+    
+    
+            var marker_2b6ebdf7514f172f79661e61697060ae = L.marker(
+                [40.77069, -73.962818],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_76337717aa651ffc0c2c3ba55f7427ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea7b1b43a97dc3f7962a024c5fb98afa = $(`<div id="html_ea7b1b43a97dc3f7962a024c5fb98afa" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_76337717aa651ffc0c2c3ba55f7427ac.setContent(html_ea7b1b43a97dc3f7962a024c5fb98afa);
+            
+        
+
+        marker_2b6ebdf7514f172f79661e61697060ae.bindPopup(popup_76337717aa651ffc0c2c3ba55f7427ac)
+        ;
+
+        
+    
+    
+            var marker_249de58904ff7295e24f74f034a4c9c3 = L.marker(
+                [40.77033, -73.961966],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_262a65e8510302d681c7bd7ac96693e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a31c49b77b994ba3ce51536457695329 = $(`<div id="html_a31c49b77b994ba3ce51536457695329" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_262a65e8510302d681c7bd7ac96693e5.setContent(html_a31c49b77b994ba3ce51536457695329);
+            
+        
+
+        marker_249de58904ff7295e24f74f034a4c9c3.bindPopup(popup_262a65e8510302d681c7bd7ac96693e5)
+        ;
+
+        
+    
+    
+            var marker_457b786a3f8fe0bd8a79d21ca405cef3 = L.marker(
+                [40.77033, -73.961966],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1d038a8649b911017f2b578e8601866b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb02e51e8569c2f6cfe9981aa3a34905 = $(`<div id="html_fb02e51e8569c2f6cfe9981aa3a34905" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1d038a8649b911017f2b578e8601866b.setContent(html_fb02e51e8569c2f6cfe9981aa3a34905);
+            
+        
+
+        marker_457b786a3f8fe0bd8a79d21ca405cef3.bindPopup(popup_1d038a8649b911017f2b578e8601866b)
+        ;
+
+        
+    
+    
+            var marker_82c5d114aa8b477d5d65c09a7671f90f = L.marker(
+                [40.77098, -73.961431],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_07c1cda02692922cb9156269bfe9550b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b71b5e0a0d4f2198893c04b304440e85 = $(`<div id="html_b71b5e0a0d4f2198893c04b304440e85" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_07c1cda02692922cb9156269bfe9550b.setContent(html_b71b5e0a0d4f2198893c04b304440e85);
+            
+        
+
+        marker_82c5d114aa8b477d5d65c09a7671f90f.bindPopup(popup_07c1cda02692922cb9156269bfe9550b)
+        ;
+
+        
+    
+    
+            var marker_c410f32c84721bddfcd32470800dcf05 = L.marker(
+                [40.770948, -73.961308],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3343cd073bc768eef91d543908fe23d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a9d74156b645556373c03d72a5cedeb = $(`<div id="html_5a9d74156b645556373c03d72a5cedeb" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3343cd073bc768eef91d543908fe23d9.setContent(html_5a9d74156b645556373c03d72a5cedeb);
+            
+        
+
+        marker_c410f32c84721bddfcd32470800dcf05.bindPopup(popup_3343cd073bc768eef91d543908fe23d9)
+        ;
+
+        
+    
+    
+            var marker_035c2bafd63f202e2a8874c781c3bc74 = L.marker(
+                [40.770948, -73.961308],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_d8e2492beff96f3f83922a9a4437bba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef7cfa64b01f540a1be0ccd5f3549a60 = $(`<div id="html_ef7cfa64b01f540a1be0ccd5f3549a60" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_d8e2492beff96f3f83922a9a4437bba1.setContent(html_ef7cfa64b01f540a1be0ccd5f3549a60);
+            
+        
+
+        marker_035c2bafd63f202e2a8874c781c3bc74.bindPopup(popup_d8e2492beff96f3f83922a9a4437bba1)
+        ;
+
+        
+    
+    
+            var marker_685263994523abee261a4f12c5ec272e = L.marker(
+                [40.770915, -73.961233],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_7025e0d94992fb4ab1ac2656bcb1cb52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2603924852d5470bba05956521fd155 = $(`<div id="html_c2603924852d5470bba05956521fd155" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_7025e0d94992fb4ab1ac2656bcb1cb52.setContent(html_c2603924852d5470bba05956521fd155);
+            
+        
+
+        marker_685263994523abee261a4f12c5ec272e.bindPopup(popup_7025e0d94992fb4ab1ac2656bcb1cb52)
+        ;
+
+        
+    
+    
+            var marker_c593ded50dc71284a9378dbe45dd3996 = L.marker(
+                [40.770689, -73.960691],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a40c5fb28ed02a3f38e5de8df4e3826e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_135b1b647503f8879c3745e7d0e18875 = $(`<div id="html_135b1b647503f8879c3745e7d0e18875" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a40c5fb28ed02a3f38e5de8df4e3826e.setContent(html_135b1b647503f8879c3745e7d0e18875);
+            
+        
+
+        marker_c593ded50dc71284a9378dbe45dd3996.bindPopup(popup_a40c5fb28ed02a3f38e5de8df4e3826e)
+        ;
+
+        
+    
+    
+            var marker_a7f85fa1165dded12f4b489c07c85419 = L.marker(
+                [40.770689, -73.960691],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9229d449c149cf8cc929eb690e90c34e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe625baab534b93504105722438ebd37 = $(`<div id="html_fe625baab534b93504105722438ebd37" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9229d449c149cf8cc929eb690e90c34e.setContent(html_fe625baab534b93504105722438ebd37);
+            
+        
+
+        marker_a7f85fa1165dded12f4b489c07c85419.bindPopup(popup_9229d449c149cf8cc929eb690e90c34e)
+        ;
+
+        
+    
+    
+            var marker_5ad0cd504841962d1b2f22166bb14e15 = L.marker(
+                [40.771367, -73.960384],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_0017cb04d7a40f5919311f6f590618a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f1aca5fe0c22ef344b9a3e7a32c09f0 = $(`<div id="html_9f1aca5fe0c22ef344b9a3e7a32c09f0" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_0017cb04d7a40f5919311f6f590618a8.setContent(html_9f1aca5fe0c22ef344b9a3e7a32c09f0);
+            
+        
+
+        marker_5ad0cd504841962d1b2f22166bb14e15.bindPopup(popup_0017cb04d7a40f5919311f6f590618a8)
+        ;
+
+        
+    
+    
+            var marker_29702b14bbeb8166881c327f7677d7e1 = L.marker(
+                [40.771419, -73.96051],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3772387f3dffa15385c34a2f7120634e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fa4dbdae0c366a5432a9da6da634c5d = $(`<div id="html_0fa4dbdae0c366a5432a9da6da634c5d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3772387f3dffa15385c34a2f7120634e.setContent(html_0fa4dbdae0c366a5432a9da6da634c5d);
+            
+        
+
+        marker_29702b14bbeb8166881c327f7677d7e1.bindPopup(popup_3772387f3dffa15385c34a2f7120634e)
+        ;
+
+        
+    
+    
+            var marker_513bf686138b59e4b91eb8a967d3e470 = L.marker(
+                [40.772032, -73.961918],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_0e7ceb2a4671141599745b0592ffc60b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb3ffba9bd11e47b99ec1b1fc5b7a1d4 = $(`<div id="html_cb3ffba9bd11e47b99ec1b1fc5b7a1d4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_0e7ceb2a4671141599745b0592ffc60b.setContent(html_cb3ffba9bd11e47b99ec1b1fc5b7a1d4);
+            
+        
+
+        marker_513bf686138b59e4b91eb8a967d3e470.bindPopup(popup_0e7ceb2a4671141599745b0592ffc60b)
+        ;
+
+        
+    
+    
+            var marker_4f0730e5390e0cdee26c31c3845b19d1 = L.marker(
+                [40.771811, -73.959478],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e10a2326ea405d0050742e360403ef84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b44a220c82a6da92431abc46941065c3 = $(`<div id="html_b44a220c82a6da92431abc46941065c3" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e10a2326ea405d0050742e360403ef84.setContent(html_b44a220c82a6da92431abc46941065c3);
+            
+        
+
+        marker_4f0730e5390e0cdee26c31c3845b19d1.bindPopup(popup_e10a2326ea405d0050742e360403ef84)
+        ;
+
+        
+    
+    
+            var marker_2527972e6cc26d805382bd84d8e9fbf3 = L.marker(
+                [40.77185, -73.959571],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_0ab367b87eb716fe530f8778af69f082 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_890c12d9ad43d5f550c0c600f4dbc3cd = $(`<div id="html_890c12d9ad43d5f550c0c600f4dbc3cd" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_0ab367b87eb716fe530f8778af69f082.setContent(html_890c12d9ad43d5f550c0c600f4dbc3cd);
+            
+        
+
+        marker_2527972e6cc26d805382bd84d8e9fbf3.bindPopup(popup_0ab367b87eb716fe530f8778af69f082)
+        ;
+
+        
+    
+    
+            var marker_3671cbcc58933ede2a7ba039992f3599 = L.marker(
+                [40.772872, -73.96252],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a27de25bc702a623b81e12b937f41c9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ae72c146cf024d82fa79f7fca36721 = $(`<div id="html_08ae72c146cf024d82fa79f7fca36721" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a27de25bc702a623b81e12b937f41c9e.setContent(html_08ae72c146cf024d82fa79f7fca36721);
+            
+        
+
+        marker_3671cbcc58933ede2a7ba039992f3599.bindPopup(popup_a27de25bc702a623b81e12b937f41c9e)
+        ;
+
+        
+    
+    
+            var marker_eaa289ecedd2e4f81b5e3e38ba290ebf = L.marker(
+                [40.772627, -73.961409],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_742e4c5d80b42135b9230a98ea57af7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7378ddacb573a286f54adc1b1d0e51e = $(`<div id="html_b7378ddacb573a286f54adc1b1d0e51e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_742e4c5d80b42135b9230a98ea57af7f.setContent(html_b7378ddacb573a286f54adc1b1d0e51e);
+            
+        
+
+        marker_eaa289ecedd2e4f81b5e3e38ba290ebf.bindPopup(popup_742e4c5d80b42135b9230a98ea57af7f)
+        ;
+
+        
+    
+    
+            var marker_3241c91230b988d7efe3fbb54f8ba4cc = L.marker(
+                [40.771925, -73.961665],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2f652ec674897c64b83bfd089c34f774 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_147fad1116b65e6821c007ac9bd82082 = $(`<div id="html_147fad1116b65e6821c007ac9bd82082" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2f652ec674897c64b83bfd089c34f774.setContent(html_147fad1116b65e6821c007ac9bd82082);
+            
+        
+
+        marker_3241c91230b988d7efe3fbb54f8ba4cc.bindPopup(popup_2f652ec674897c64b83bfd089c34f774)
+        ;
+
+        
+    
+    
+            var marker_6e6f478e64a00d23cbaa06ede5511b66 = L.marker(
+                [40.772894, -73.961997],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_28e7de5da92e55de57172c77755d75c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0cde7afe6d6202bd5bb774707ff0e7f = $(`<div id="html_f0cde7afe6d6202bd5bb774707ff0e7f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_28e7de5da92e55de57172c77755d75c5.setContent(html_f0cde7afe6d6202bd5bb774707ff0e7f);
+            
+        
+
+        marker_6e6f478e64a00d23cbaa06ede5511b66.bindPopup(popup_28e7de5da92e55de57172c77755d75c5)
+        ;
+
+        
+    
+    
+            var marker_8fd8f5cbfd300d9801fa395abdb84ebd = L.marker(
+                [40.772633, -73.961376],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_87250d66a718f6d5456d1ca08514a0eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d4576c5ef0d325f018c4d1d9f752eff = $(`<div id="html_4d4576c5ef0d325f018c4d1d9f752eff" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_87250d66a718f6d5456d1ca08514a0eb.setContent(html_4d4576c5ef0d325f018c4d1d9f752eff);
+            
+        
+
+        marker_8fd8f5cbfd300d9801fa395abdb84ebd.bindPopup(popup_87250d66a718f6d5456d1ca08514a0eb)
+        ;
+
+        
+    
+    
+            var marker_13cc89bfdfe95e28e906e30c7dad2a37 = L.marker(
+                [40.772633, -73.961376],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_4f01df8277c5569987d41cd3fb630874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a2e1a2b169c33526e0f6592537b2280 = $(`<div id="html_7a2e1a2b169c33526e0f6592537b2280" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_4f01df8277c5569987d41cd3fb630874.setContent(html_7a2e1a2b169c33526e0f6592537b2280);
+            
+        
+
+        marker_13cc89bfdfe95e28e906e30c7dad2a37.bindPopup(popup_4f01df8277c5569987d41cd3fb630874)
+        ;
+
+        
+    
+    
+            var marker_59d4fe97cad3352e27f1d951e5d22d8c = L.marker(
+                [40.772633, -73.961376],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_805cb311a5499d3834a22cd348bce1fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_608ca46ac182dfe35172625d9f2671d9 = $(`<div id="html_608ca46ac182dfe35172625d9f2671d9" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_805cb311a5499d3834a22cd348bce1fb.setContent(html_608ca46ac182dfe35172625d9f2671d9);
+            
+        
+
+        marker_59d4fe97cad3352e27f1d951e5d22d8c.bindPopup(popup_805cb311a5499d3834a22cd348bce1fb)
+        ;
+
+        
+    
+    
+            var marker_6464199c84c8ce9d9a61a25a2e7ceb8e = L.marker(
+                [40.772081, -73.960069],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_7a8c3b8a9d427a310ca820466124da89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2de0f1d145aa559154cb016fa1f8c11 = $(`<div id="html_c2de0f1d145aa559154cb016fa1f8c11" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_7a8c3b8a9d427a310ca820466124da89.setContent(html_c2de0f1d145aa559154cb016fa1f8c11);
+            
+        
+
+        marker_6464199c84c8ce9d9a61a25a2e7ceb8e.bindPopup(popup_7a8c3b8a9d427a310ca820466124da89)
+        ;
+
+        
+    
+    
+            var marker_91ee273a67e6aef42f9bd4cf633e3e42 = L.marker(
+                [40.773399, -73.962137],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_022607c4eafea4327722f3efaa6e8096 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d96b98e2e8ead15e11ebfd0649cf4bd6 = $(`<div id="html_d96b98e2e8ead15e11ebfd0649cf4bd6" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_022607c4eafea4327722f3efaa6e8096.setContent(html_d96b98e2e8ead15e11ebfd0649cf4bd6);
+            
+        
+
+        marker_91ee273a67e6aef42f9bd4cf633e3e42.bindPopup(popup_022607c4eafea4327722f3efaa6e8096)
+        ;
+
+        
+    
+    
+            var marker_74b91770ca366c3571f3dfab7bdff803 = L.marker(
+                [40.77316, -73.960701],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_11c3d2fc3da7293d7d234b3c9cdee000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeba1383dd73770470239b5dd15dd248 = $(`<div id="html_aeba1383dd73770470239b5dd15dd248" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_11c3d2fc3da7293d7d234b3c9cdee000.setContent(html_aeba1383dd73770470239b5dd15dd248);
+            
+        
+
+        marker_74b91770ca366c3571f3dfab7bdff803.bindPopup(popup_11c3d2fc3da7293d7d234b3c9cdee000)
+        ;
+
+        
+    
+    
+            var marker_0965ec86a63b926760a2b19f7d974da2 = L.marker(
+                [40.772663, -73.96056],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a021e7f30d831a51e9e43c0710d6d266 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c890de18da47374665d1987d500290e = $(`<div id="html_3c890de18da47374665d1987d500290e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a021e7f30d831a51e9e43c0710d6d266.setContent(html_3c890de18da47374665d1987d500290e);
+            
+        
+
+        marker_0965ec86a63b926760a2b19f7d974da2.bindPopup(popup_a021e7f30d831a51e9e43c0710d6d266)
+        ;
+
+        
+    
+    
+            var marker_b4e03df8f85264374e6f448a61dbfb74 = L.marker(
+                [40.774414, -73.961397],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_dca130c3a5c453a208972c45ac3b2976 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a949467f84c879c8475bec6e28b2756 = $(`<div id="html_0a949467f84c879c8475bec6e28b2756" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_dca130c3a5c453a208972c45ac3b2976.setContent(html_0a949467f84c879c8475bec6e28b2756);
+            
+        
+
+        marker_b4e03df8f85264374e6f448a61dbfb74.bindPopup(popup_dca130c3a5c453a208972c45ac3b2976)
+        ;
+
+        
+    
+    
+            var marker_4c364881ebd71bd6babfacd8aaff5973 = L.marker(
+                [40.773282, -73.958978],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_6cc83686644120f06b5786f38919de98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f77047d4378a70bf8c905f13a65ec21d = $(`<div id="html_f77047d4378a70bf8c905f13a65ec21d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_6cc83686644120f06b5786f38919de98.setContent(html_f77047d4378a70bf8c905f13a65ec21d);
+            
+        
+
+        marker_4c364881ebd71bd6babfacd8aaff5973.bindPopup(popup_6cc83686644120f06b5786f38919de98)
+        ;
+
+        
+    
+    
+            var marker_45cd91c95be7299120729b5906726f66 = L.marker(
+                [40.773941, -73.958621],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9d84591da48cad8a34ac43a57dbb05e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ee0cf28b4c7185c0072631a7e930d5f = $(`<div id="html_8ee0cf28b4c7185c0072631a7e930d5f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9d84591da48cad8a34ac43a57dbb05e3.setContent(html_8ee0cf28b4c7185c0072631a7e930d5f);
+            
+        
+
+        marker_45cd91c95be7299120729b5906726f66.bindPopup(popup_9d84591da48cad8a34ac43a57dbb05e3)
+        ;
+
+        
+    
+    
+            var marker_82aaa500d7fc0b6b2fae4033f9f73436 = L.marker(
+                [40.774633, -73.95814],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_6e395ade20140e277d5a91bbfa5053bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6fa2cdc5a4ca96babf74c88d7fcc146 = $(`<div id="html_d6fa2cdc5a4ca96babf74c88d7fcc146" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_6e395ade20140e277d5a91bbfa5053bf.setContent(html_d6fa2cdc5a4ca96babf74c88d7fcc146);
+            
+        
+
+        marker_82aaa500d7fc0b6b2fae4033f9f73436.bindPopup(popup_6e395ade20140e277d5a91bbfa5053bf)
+        ;
+
+        
+    
+    
+            var marker_6fc0c81b3e5ee862b034fdb315f0c680 = L.marker(
+                [40.774759, -73.958443],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_6e60fed38f15d6316b101cf77bac476e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a79faec4cc6a1fc58cb4b0ed6540577 = $(`<div id="html_4a79faec4cc6a1fc58cb4b0ed6540577" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_6e60fed38f15d6316b101cf77bac476e.setContent(html_4a79faec4cc6a1fc58cb4b0ed6540577);
+            
+        
+
+        marker_6fc0c81b3e5ee862b034fdb315f0c680.bindPopup(popup_6e60fed38f15d6316b101cf77bac476e)
+        ;
+
+        
+    
+    
+            var marker_b889823835845ae9b9a86de68dfd5c17 = L.marker(
+                [40.775289, -73.959703],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_0bf0af9b4d46dc6e32ef531e0770c768 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c762cddd16619461c9e4ab1e35c5603 = $(`<div id="html_1c762cddd16619461c9e4ab1e35c5603" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_0bf0af9b4d46dc6e32ef531e0770c768.setContent(html_1c762cddd16619461c9e4ab1e35c5603);
+            
+        
+
+        marker_b889823835845ae9b9a86de68dfd5c17.bindPopup(popup_0bf0af9b4d46dc6e32ef531e0770c768)
+        ;
+
+        
+    
+    
+            var marker_925c390ab5115b4c64a191ea901575fe = L.marker(
+                [40.775289, -73.959703],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a098db06e70bdf21b140cf441e8411ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b3fdc47f29742f4ed2d229ab84e24a6 = $(`<div id="html_2b3fdc47f29742f4ed2d229ab84e24a6" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a098db06e70bdf21b140cf441e8411ad.setContent(html_2b3fdc47f29742f4ed2d229ab84e24a6);
+            
+        
+
+        marker_925c390ab5115b4c64a191ea901575fe.bindPopup(popup_a098db06e70bdf21b140cf441e8411ad)
+        ;
+
+        
+    
+    
+            var marker_d08fb15b06207a6b21237465b37f3c94 = L.marker(
+                [40.779805, -73.954201],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2ec96b9e8e255eb1a2978c6368d20827 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d736199aea06dc00a4b708ec492fb9bc = $(`<div id="html_d736199aea06dc00a4b708ec492fb9bc" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2ec96b9e8e255eb1a2978c6368d20827.setContent(html_d736199aea06dc00a4b708ec492fb9bc);
+            
+        
+
+        marker_d08fb15b06207a6b21237465b37f3c94.bindPopup(popup_2ec96b9e8e255eb1a2978c6368d20827)
+        ;
+
+        
+    
+    
+            var marker_6b12969b4c2f6a4284156f93ed87e056 = L.marker(
+                [40.779135, -73.960751],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ce85739ec30d28bfd48ac9bb611da45e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_033582a66bc19eec263163b18ca78825 = $(`<div id="html_033582a66bc19eec263163b18ca78825" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ce85739ec30d28bfd48ac9bb611da45e.setContent(html_033582a66bc19eec263163b18ca78825);
+            
+        
+
+        marker_6b12969b4c2f6a4284156f93ed87e056.bindPopup(popup_ce85739ec30d28bfd48ac9bb611da45e)
+        ;
+
+        
+    
+    
+            var marker_cc54fa216cfb16f70aa8ead321ad2225 = L.marker(
+                [40.776541, -73.959865],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ca170e2881e1a88a73364d7e91ac69a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b42ed356fb425f5984a3ba014be807c0 = $(`<div id="html_b42ed356fb425f5984a3ba014be807c0" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ca170e2881e1a88a73364d7e91ac69a2.setContent(html_b42ed356fb425f5984a3ba014be807c0);
+            
+        
+
+        marker_cc54fa216cfb16f70aa8ead321ad2225.bindPopup(popup_ca170e2881e1a88a73364d7e91ac69a2)
+        ;
+
+        
+    
+    
+            var marker_6792a3e4e07251647700bd0b239b42e8 = L.marker(
+                [40.777766, -73.961499],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3a068f24924e940a98dd4547640d6085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c59e60c82e8acfee38d7359c93fe8a0b = $(`<div id="html_c59e60c82e8acfee38d7359c93fe8a0b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3a068f24924e940a98dd4547640d6085.setContent(html_c59e60c82e8acfee38d7359c93fe8a0b);
+            
+        
+
+        marker_6792a3e4e07251647700bd0b239b42e8.bindPopup(popup_3a068f24924e940a98dd4547640d6085)
+        ;
+
+        
+    
+    
+            var marker_de3940cc6c983cd2f5387efa59524b58 = L.marker(
+                [40.77852, -73.960535],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a3096a396359c82b4ef825b2bd98190b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f2011ab9dbdc09fdda16b02ec335723 = $(`<div id="html_4f2011ab9dbdc09fdda16b02ec335723" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a3096a396359c82b4ef825b2bd98190b.setContent(html_4f2011ab9dbdc09fdda16b02ec335723);
+            
+        
+
+        marker_de3940cc6c983cd2f5387efa59524b58.bindPopup(popup_a3096a396359c82b4ef825b2bd98190b)
+        ;
+
+        
+    
+    
+            var marker_23c2c30fbb8f8ceaf0482ec788ac064e = L.marker(
+                [40.778036, -73.95878],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_bd03b08b0531829f1d6e428944c609fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f937f22c25010d626bf4ce854328fd0 = $(`<div id="html_5f937f22c25010d626bf4ce854328fd0" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_bd03b08b0531829f1d6e428944c609fa.setContent(html_5f937f22c25010d626bf4ce854328fd0);
+            
+        
+
+        marker_23c2c30fbb8f8ceaf0482ec788ac064e.bindPopup(popup_bd03b08b0531829f1d6e428944c609fa)
+        ;
+
+        
+    
+    
+            var marker_52d2c13e18ab1ae8e6e25e13801f4377 = L.marker(
+                [40.779311, -73.961459],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9e8c06252723c638f2b334237284e335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abbae4c6a896e5ea1cf4a21169b9eaf4 = $(`<div id="html_abbae4c6a896e5ea1cf4a21169b9eaf4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9e8c06252723c638f2b334237284e335.setContent(html_abbae4c6a896e5ea1cf4a21169b9eaf4);
+            
+        
+
+        marker_52d2c13e18ab1ae8e6e25e13801f4377.bindPopup(popup_9e8c06252723c638f2b334237284e335)
+        ;
+
+        
+    
+    
+            var marker_b9754562e6f1c4c7c07897a889aaa209 = L.marker(
+                [40.779311, -73.961459],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_72bd015bc0941d066b5c24a63c7bdfa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6c08d0d79a5925f9d0b0efcdc2ec53e = $(`<div id="html_d6c08d0d79a5925f9d0b0efcdc2ec53e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_72bd015bc0941d066b5c24a63c7bdfa6.setContent(html_d6c08d0d79a5925f9d0b0efcdc2ec53e);
+            
+        
+
+        marker_b9754562e6f1c4c7c07897a889aaa209.bindPopup(popup_72bd015bc0941d066b5c24a63c7bdfa6)
+        ;
+
+        
+    
+    
+            var marker_2f7c6c04c1c28cb13c42973bf1532227 = L.marker(
+                [40.779558, -73.961531],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1a18921e6841664026863a1894676cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_548c874069457c8ded3dad7ae040b459 = $(`<div id="html_548c874069457c8ded3dad7ae040b459" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1a18921e6841664026863a1894676cf2.setContent(html_548c874069457c8ded3dad7ae040b459);
+            
+        
+
+        marker_2f7c6c04c1c28cb13c42973bf1532227.bindPopup(popup_1a18921e6841664026863a1894676cf2)
+        ;
+
+        
+    
+    
+            var marker_5e684219a41f70d9fbed28390086be63 = L.marker(
+                [40.779403, -73.959426],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_02be478280da80e4bb8f69a0ac8546e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0fa37174ad3f523839099c302643e02 = $(`<div id="html_f0fa37174ad3f523839099c302643e02" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_02be478280da80e4bb8f69a0ac8546e3.setContent(html_f0fa37174ad3f523839099c302643e02);
+            
+        
+
+        marker_5e684219a41f70d9fbed28390086be63.bindPopup(popup_02be478280da80e4bb8f69a0ac8546e3)
+        ;
+
+        
+    
+    
+            var marker_efc89590063a8595a517f85ca02e146e = L.marker(
+                [40.780636, -73.960411],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_d14f2b2e069fe4fd1b229ac78725a523 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcf28fb432fe5606c65951a0ea238447 = $(`<div id="html_fcf28fb432fe5606c65951a0ea238447" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_d14f2b2e069fe4fd1b229ac78725a523.setContent(html_fcf28fb432fe5606c65951a0ea238447);
+            
+        
+
+        marker_efc89590063a8595a517f85ca02e146e.bindPopup(popup_d14f2b2e069fe4fd1b229ac78725a523)
+        ;
+
+        
+    
+    
+            var marker_45416a95af9635f70070c41ebb12a105 = L.marker(
+                [40.780356, -73.959754],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1d95ab786ce0ca2995185e5bde2e287d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_243ae54be4306411772406de38be829e = $(`<div id="html_243ae54be4306411772406de38be829e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1d95ab786ce0ca2995185e5bde2e287d.setContent(html_243ae54be4306411772406de38be829e);
+            
+        
+
+        marker_45416a95af9635f70070c41ebb12a105.bindPopup(popup_1d95ab786ce0ca2995185e5bde2e287d)
+        ;
+
+        
+    
+    
+            var marker_495fce2fb9c6561516a3a6ceeb37831e = L.marker(
+                [40.780719, -73.960563],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_320c52fc656634df6ffc0ebbdaaf564b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8173e72f931581df5d30c9c59409400e = $(`<div id="html_8173e72f931581df5d30c9c59409400e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_320c52fc656634df6ffc0ebbdaaf564b.setContent(html_8173e72f931581df5d30c9c59409400e);
+            
+        
+
+        marker_495fce2fb9c6561516a3a6ceeb37831e.bindPopup(popup_320c52fc656634df6ffc0ebbdaaf564b)
+        ;
+
+        
+    
+    
+            var marker_44b95ea8c333d559d2c3f1b70cabdf23 = L.marker(
+                [40.780633, -73.96036],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1c0157f701585361d9ff937bfdc6e6f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d668900f6faecdb76c5ccc2781e31f7 = $(`<div id="html_1d668900f6faecdb76c5ccc2781e31f7" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1c0157f701585361d9ff937bfdc6e6f9.setContent(html_1d668900f6faecdb76c5ccc2781e31f7);
+            
+        
+
+        marker_44b95ea8c333d559d2c3f1b70cabdf23.bindPopup(popup_1c0157f701585361d9ff937bfdc6e6f9)
+        ;
+
+        
+    
+    
+            var marker_6ac8cd74be26b92bc65eda32f0fb20fc = L.marker(
+                [40.7813, -73.959901],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_0bea03140d0cbcb93723373a8b687dde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f93e1f585f514986d94cd83ee487d7b = $(`<div id="html_3f93e1f585f514986d94cd83ee487d7b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_0bea03140d0cbcb93723373a8b687dde.setContent(html_3f93e1f585f514986d94cd83ee487d7b);
+            
+        
+
+        marker_6ac8cd74be26b92bc65eda32f0fb20fc.bindPopup(popup_0bea03140d0cbcb93723373a8b687dde)
+        ;
+
+        
+    
+    
+            var marker_79700be351399dc8326004934c7df438 = L.marker(
+                [40.779969, -73.958797],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_adefdd36fb8950f473a7b8b4fc0bc901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83e478cef4f07b11bda094a2156bf4e7 = $(`<div id="html_83e478cef4f07b11bda094a2156bf4e7" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_adefdd36fb8950f473a7b8b4fc0bc901.setContent(html_83e478cef4f07b11bda094a2156bf4e7);
+            
+        
+
+        marker_79700be351399dc8326004934c7df438.bindPopup(popup_adefdd36fb8950f473a7b8b4fc0bc901)
+        ;
+
+        
+    
+    
+            var marker_1b1dd3944b9c1215a03a248310671465 = L.marker(
+                [40.780034, -73.957313],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_554b1871c66fb7835f1f38eee0c41eeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_235de34fc5f3035306ead325a9994d6e = $(`<div id="html_235de34fc5f3035306ead325a9994d6e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_554b1871c66fb7835f1f38eee0c41eeb.setContent(html_235de34fc5f3035306ead325a9994d6e);
+            
+        
+
+        marker_1b1dd3944b9c1215a03a248310671465.bindPopup(popup_554b1871c66fb7835f1f38eee0c41eeb)
+        ;
+
+        
+    
+    
+            var marker_91b9b8952774f183d5e4b260a8454070 = L.marker(
+                [40.781295, -73.95984],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_4826c4b954595acf24ca6a2bec69bcaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05c31b48e9d8c8ba8c231e65b74c7d93 = $(`<div id="html_05c31b48e9d8c8ba8c231e65b74c7d93" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_4826c4b954595acf24ca6a2bec69bcaa.setContent(html_05c31b48e9d8c8ba8c231e65b74c7d93);
+            
+        
+
+        marker_91b9b8952774f183d5e4b260a8454070.bindPopup(popup_4826c4b954595acf24ca6a2bec69bcaa)
+        ;
+
+        
+    
+    
+            var marker_c1c748d6115e128a7e33f803e3bbf144 = L.marker(
+                [40.781102, -73.959378],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_4f9029fd28504960410ffd4c38a9c117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd52533697fba92e04aaea6f2a5bb231 = $(`<div id="html_cd52533697fba92e04aaea6f2a5bb231" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_4f9029fd28504960410ffd4c38a9c117.setContent(html_cd52533697fba92e04aaea6f2a5bb231);
+            
+        
+
+        marker_c1c748d6115e128a7e33f803e3bbf144.bindPopup(popup_4f9029fd28504960410ffd4c38a9c117)
+        ;
+
+        
+    
+    
+            var marker_ca2482b7347f34df01ff9bd2f4527a82 = L.marker(
+                [40.780284, -73.957133],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2bc6449ae466e21f171c0e5b3f582d1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51d021526f93dc873f01895d44bef267 = $(`<div id="html_51d021526f93dc873f01895d44bef267" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2bc6449ae466e21f171c0e5b3f582d1c.setContent(html_51d021526f93dc873f01895d44bef267);
+            
+        
+
+        marker_ca2482b7347f34df01ff9bd2f4527a82.bindPopup(popup_2bc6449ae466e21f171c0e5b3f582d1c)
+        ;
+
+        
+    
+    
+            var marker_8e9f5f32ce32ce1340e0b11916a23130 = L.marker(
+                [40.780621, -73.95689],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a1f26210ef74bc6e1ddc24e919948cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4bfff3927a75e27a85cf6756ef2720 = $(`<div id="html_5a4bfff3927a75e27a85cf6756ef2720" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a1f26210ef74bc6e1ddc24e919948cf4.setContent(html_5a4bfff3927a75e27a85cf6756ef2720);
+            
+        
+
+        marker_8e9f5f32ce32ce1340e0b11916a23130.bindPopup(popup_a1f26210ef74bc6e1ddc24e919948cf4)
+        ;
+
+        
+    
+    
+            var marker_e1eaa6664491557ba49b8ea895e1d3ac = L.marker(
+                [40.781201, -73.957551],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_40a65e30da7b28bb289df2a6448d7906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_095c2835727a52826a91e50b5f66f5c4 = $(`<div id="html_095c2835727a52826a91e50b5f66f5c4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_40a65e30da7b28bb289df2a6448d7906.setContent(html_095c2835727a52826a91e50b5f66f5c4);
+            
+        
+
+        marker_e1eaa6664491557ba49b8ea895e1d3ac.bindPopup(popup_40a65e30da7b28bb289df2a6448d7906)
+        ;
+
+        
+    
+    
+            var marker_559e39cb0ef74df330ca7b8adeef2874 = L.marker(
+                [40.786023, -73.951326],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3f20e647cd07f3cba0a85d48f57f7d21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6054be84e3f22e82fb58d144888bc2eb = $(`<div id="html_6054be84e3f22e82fb58d144888bc2eb" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3f20e647cd07f3cba0a85d48f57f7d21.setContent(html_6054be84e3f22e82fb58d144888bc2eb);
+            
+        
+
+        marker_559e39cb0ef74df330ca7b8adeef2874.bindPopup(popup_3f20e647cd07f3cba0a85d48f57f7d21)
+        ;
+
+        
+    
+    
+            var marker_a7da2ce41be3409b648e445386673786 = L.marker(
+                [40.782107, -73.959988],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_55ab60201f500fb2325a2bd040fc0aaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e13651738a2c5b761e9181fa3f36bb82 = $(`<div id="html_e13651738a2c5b761e9181fa3f36bb82" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_55ab60201f500fb2325a2bd040fc0aaa.setContent(html_e13651738a2c5b761e9181fa3f36bb82);
+            
+        
+
+        marker_a7da2ce41be3409b648e445386673786.bindPopup(popup_55ab60201f500fb2325a2bd040fc0aaa)
+        ;
+
+        
+    
+    
+            var marker_92337acbc1ede7e49b9fcc234ba5c988 = L.marker(
+                [40.781981, -73.959349],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_4df256e9d03ecb5fd2e56ad18cf0a984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5ade3c20b395ac0c21fd2539ec042f8 = $(`<div id="html_c5ade3c20b395ac0c21fd2539ec042f8" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_4df256e9d03ecb5fd2e56ad18cf0a984.setContent(html_c5ade3c20b395ac0c21fd2539ec042f8);
+            
+        
+
+        marker_92337acbc1ede7e49b9fcc234ba5c988.bindPopup(popup_4df256e9d03ecb5fd2e56ad18cf0a984)
+        ;
+
+        
+    
+    
+            var marker_859df2e74b14b1302c25e880defe4718 = L.marker(
+                [40.781841, -73.95902],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e93aeb0459032d57b068c1c71424c58e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90d27f3c1c0542cce940e455c7c7afb7 = $(`<div id="html_90d27f3c1c0542cce940e455c7c7afb7" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e93aeb0459032d57b068c1c71424c58e.setContent(html_90d27f3c1c0542cce940e455c7c7afb7);
+            
+        
+
+        marker_859df2e74b14b1302c25e880defe4718.bindPopup(popup_e93aeb0459032d57b068c1c71424c58e)
+        ;
+
+        
+    
+    
+            var marker_a77a374d195bc3f33d9143797ca2c8d3 = L.marker(
+                [40.781374, -73.957912],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_567bb7e36def104d1fc3320666426360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a6c75460a43cf4571ddb0f8e246b44e = $(`<div id="html_5a6c75460a43cf4571ddb0f8e246b44e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_567bb7e36def104d1fc3320666426360.setContent(html_5a6c75460a43cf4571ddb0f8e246b44e);
+            
+        
+
+        marker_a77a374d195bc3f33d9143797ca2c8d3.bindPopup(popup_567bb7e36def104d1fc3320666426360)
+        ;
+
+        
+    
+    
+            var marker_12af7153b9d15e79443a4ac0f037091c = L.marker(
+                [40.781217, -73.957544],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3733449b918660051f6983b3d216d725 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7114409bcf44045f6182ca7c6cce97f = $(`<div id="html_e7114409bcf44045f6182ca7c6cce97f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3733449b918660051f6983b3d216d725.setContent(html_e7114409bcf44045f6182ca7c6cce97f);
+            
+        
+
+        marker_12af7153b9d15e79443a4ac0f037091c.bindPopup(popup_3733449b918660051f6983b3d216d725)
+        ;
+
+        
+    
+    
+            var marker_1706382422612891bc476ef61c4f185e = L.marker(
+                [40.78198, -73.95741],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ab41f990cf4e6fb640f538ee54c33584 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e19812370dbcec7c801e740aba25a033 = $(`<div id="html_e19812370dbcec7c801e740aba25a033" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ab41f990cf4e6fb640f538ee54c33584.setContent(html_e19812370dbcec7c801e740aba25a033);
+            
+        
+
+        marker_1706382422612891bc476ef61c4f185e.bindPopup(popup_ab41f990cf4e6fb640f538ee54c33584)
+        ;
+
+        
+    
+    
+            var marker_bfdda610e3f89fbd584a4fe72db0b1b4 = L.marker(
+                [40.78198, -73.95741],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a1b5f002534f4e96ae77e0cdf70aab89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_677df8e2cd1d028cf8baf3c75b455793 = $(`<div id="html_677df8e2cd1d028cf8baf3c75b455793" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a1b5f002534f4e96ae77e0cdf70aab89.setContent(html_677df8e2cd1d028cf8baf3c75b455793);
+            
+        
+
+        marker_bfdda610e3f89fbd584a4fe72db0b1b4.bindPopup(popup_a1b5f002534f4e96ae77e0cdf70aab89)
+        ;
+
+        
+    
+    
+            var marker_bc378497ef171040c20cbbef238c1d3f = L.marker(
+                [40.782647, -73.957084],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_459fbfa722c84c62f00bf9fd5ad8cad9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_914191a172cd78c9d6af8a6128d85bbf = $(`<div id="html_914191a172cd78c9d6af8a6128d85bbf" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_459fbfa722c84c62f00bf9fd5ad8cad9.setContent(html_914191a172cd78c9d6af8a6128d85bbf);
+            
+        
+
+        marker_bc378497ef171040c20cbbef238c1d3f.bindPopup(popup_459fbfa722c84c62f00bf9fd5ad8cad9)
+        ;
+
+        
+    
+    
+            var marker_3541752fb0d96e8f3237904dd986e7e9 = L.marker(
+                [40.783017, -73.957225],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a0892220e4d120e0e83a4f3c0aea1895 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96199cc21e466b5b8d8ed01ef8d9a0f9 = $(`<div id="html_96199cc21e466b5b8d8ed01ef8d9a0f9" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a0892220e4d120e0e83a4f3c0aea1895.setContent(html_96199cc21e466b5b8d8ed01ef8d9a0f9);
+            
+        
+
+        marker_3541752fb0d96e8f3237904dd986e7e9.bindPopup(popup_a0892220e4d120e0e83a4f3c0aea1895)
+        ;
+
+        
+    
+    
+            var marker_6c17b1d341015b080e72779e7efce27c = L.marker(
+                [40.783017, -73.957225],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_937567cec680796f9d00fe49af2780e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bca46f4bbe63923dd354e8e022db8a4 = $(`<div id="html_7bca46f4bbe63923dd354e8e022db8a4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_937567cec680796f9d00fe49af2780e4.setContent(html_7bca46f4bbe63923dd354e8e022db8a4);
+            
+        
+
+        marker_6c17b1d341015b080e72779e7efce27c.bindPopup(popup_937567cec680796f9d00fe49af2780e4)
+        ;
+
+        
+    
+    
+            var marker_82259a40be881cd8e2871104e1c5be37 = L.marker(
+                [40.783632, -73.956777],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9c12621649048c3d1611177d8150f21b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e331508a5edaa0f18d08d73ea588610 = $(`<div id="html_4e331508a5edaa0f18d08d73ea588610" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9c12621649048c3d1611177d8150f21b.setContent(html_4e331508a5edaa0f18d08d73ea588610);
+            
+        
+
+        marker_82259a40be881cd8e2871104e1c5be37.bindPopup(popup_9c12621649048c3d1611177d8150f21b)
+        ;
+
+        
+    
+    
+            var marker_e5249f5cefbb6176cbbd1fc682939260 = L.marker(
+                [40.783632, -73.956777],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_944878a6e4fa37544d775435daba6c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d8e79d25fec265105006e4c12f9b354 = $(`<div id="html_1d8e79d25fec265105006e4c12f9b354" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_944878a6e4fa37544d775435daba6c0f.setContent(html_1d8e79d25fec265105006e4c12f9b354);
+            
+        
+
+        marker_e5249f5cefbb6176cbbd1fc682939260.bindPopup(popup_944878a6e4fa37544d775435daba6c0f)
+        ;
+
+        
+    
+    
+            var marker_d76587562466f7ebe8688c73698e9c27 = L.marker(
+                [40.783003, -73.955712],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_6146c656821053e727949a20f6063044 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d2a468a758fb6936eb93de72a87ce89 = $(`<div id="html_2d2a468a758fb6936eb93de72a87ce89" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_6146c656821053e727949a20f6063044.setContent(html_2d2a468a758fb6936eb93de72a87ce89);
+            
+        
+
+        marker_d76587562466f7ebe8688c73698e9c27.bindPopup(popup_6146c656821053e727949a20f6063044)
+        ;
+
+        
+    
+    
+            var marker_03f764f5f273a84da327d4d4a14309f1 = L.marker(
+                [40.783003, -73.955712],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_5c99369d8bd7b36d6e48262e5851a8d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c638954e15e58b49c11e76724c265c1 = $(`<div id="html_4c638954e15e58b49c11e76724c265c1" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_5c99369d8bd7b36d6e48262e5851a8d8.setContent(html_4c638954e15e58b49c11e76724c265c1);
+            
+        
+
+        marker_03f764f5f273a84da327d4d4a14309f1.bindPopup(popup_5c99369d8bd7b36d6e48262e5851a8d8)
+        ;
+
+        
+    
+    
+            var marker_7e1803f2ad4919763e0254b176874c60 = L.marker(
+                [40.783453, -73.954823],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_d5f96020e4b0317338dbcdbaeccaee79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60bd94c6984956a145300258bd1a4dd6 = $(`<div id="html_60bd94c6984956a145300258bd1a4dd6" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_d5f96020e4b0317338dbcdbaeccaee79.setContent(html_60bd94c6984956a145300258bd1a4dd6);
+            
+        
+
+        marker_7e1803f2ad4919763e0254b176874c60.bindPopup(popup_d5f96020e4b0317338dbcdbaeccaee79)
+        ;
+
+        
+    
+    
+            var marker_9550ea61430a63d8fb40aa651e45b2cc = L.marker(
+                [40.785246, -73.957696],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1421a08ef5994878d09d7ce1d727c180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bbc97fcc79d3637bd27cf9637b576f4 = $(`<div id="html_5bbc97fcc79d3637bd27cf9637b576f4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1421a08ef5994878d09d7ce1d727c180.setContent(html_5bbc97fcc79d3637bd27cf9637b576f4);
+            
+        
+
+        marker_9550ea61430a63d8fb40aa651e45b2cc.bindPopup(popup_1421a08ef5994878d09d7ce1d727c180)
+        ;
+
+        
+    
+    
+            var marker_0b9e74a30d022da3e80def293080c6a7 = L.marker(
+                [40.78564, -73.954461],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_d256674b806760991212438eb08d04d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff458a365b475e30a29c6ff456597d50 = $(`<div id="html_ff458a365b475e30a29c6ff456597d50" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_d256674b806760991212438eb08d04d6.setContent(html_ff458a365b475e30a29c6ff456597d50);
+            
+        
+
+        marker_0b9e74a30d022da3e80def293080c6a7.bindPopup(popup_d256674b806760991212438eb08d04d6)
+        ;
+
+        
+    
+    
+            var marker_1564d458505029e1c8102361dfa65e8e = L.marker(
+                [40.786909, -73.956478],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e461f1018f3476ca06755ba2c4c7607d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e91ef927767893f0e9e1e9cae441e3 = $(`<div id="html_17e91ef927767893f0e9e1e9cae441e3" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e461f1018f3476ca06755ba2c4c7607d.setContent(html_17e91ef927767893f0e9e1e9cae441e3);
+            
+        
+
+        marker_1564d458505029e1c8102361dfa65e8e.bindPopup(popup_e461f1018f3476ca06755ba2c4c7607d)
+        ;
+
+        
+    
+    
+            var marker_30584539df395ae060e67413586d3a29 = L.marker(
+                [40.786414, -73.954771],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_b33ba55a92f6e77d68bcf4758cbf6730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5897d95579b25cdb6921a8b39557016 = $(`<div id="html_c5897d95579b25cdb6921a8b39557016" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_b33ba55a92f6e77d68bcf4758cbf6730.setContent(html_c5897d95579b25cdb6921a8b39557016);
+            
+        
+
+        marker_30584539df395ae060e67413586d3a29.bindPopup(popup_b33ba55a92f6e77d68bcf4758cbf6730)
+        ;
+
+        
+    
+    
+            var marker_460a985c8bbc374b12d1d8be0b2715e6 = L.marker(
+                [40.785602, -73.954323],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1302899c911c201ac686b901000d7816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4275d2e2eabc63da72659309987608f4 = $(`<div id="html_4275d2e2eabc63da72659309987608f4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1302899c911c201ac686b901000d7816.setContent(html_4275d2e2eabc63da72659309987608f4);
+            
+        
+
+        marker_460a985c8bbc374b12d1d8be0b2715e6.bindPopup(popup_1302899c911c201ac686b901000d7816)
+        ;
+
+        
+    
+    
+            var marker_253110b09c8ba2d55247e5c0150d3633 = L.marker(
+                [40.787087, -73.955962],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_92fe5c917a9f3318422727cae120ab1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_139620696fd16952c9bfe4b0dfe29aa1 = $(`<div id="html_139620696fd16952c9bfe4b0dfe29aa1" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_92fe5c917a9f3318422727cae120ab1d.setContent(html_139620696fd16952c9bfe4b0dfe29aa1);
+            
+        
+
+        marker_253110b09c8ba2d55247e5c0150d3633.bindPopup(popup_92fe5c917a9f3318422727cae120ab1d)
+        ;
+
+        
+    
+    
+            var marker_bdc3890628f4c48c52844c8fb710937d = L.marker(
+                [40.787205, -73.95594],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_c6107f3667a3be83803855b4707d22e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86b155e698bce45b263f1d0fa82646e2 = $(`<div id="html_86b155e698bce45b263f1d0fa82646e2" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_c6107f3667a3be83803855b4707d22e1.setContent(html_86b155e698bce45b263f1d0fa82646e2);
+            
+        
+
+        marker_bdc3890628f4c48c52844c8fb710937d.bindPopup(popup_c6107f3667a3be83803855b4707d22e1)
+        ;
+
+        
+    
+    
+            var marker_026705c7c5b5b940b5d81722eb9fec58 = L.marker(
+                [40.787205, -73.95594],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ea1e32dfad9f2bb917425005ab79f0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_702234f80494cab082cc9cded4616cd1 = $(`<div id="html_702234f80494cab082cc9cded4616cd1" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ea1e32dfad9f2bb917425005ab79f0f9.setContent(html_702234f80494cab082cc9cded4616cd1);
+            
+        
+
+        marker_026705c7c5b5b940b5d81722eb9fec58.bindPopup(popup_ea1e32dfad9f2bb917425005ab79f0f9)
+        ;
+
+        
+    
+    
+            var marker_99153c6908e76c5907837b71bb7ed52b = L.marker(
+                [40.786845, -73.953275],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_b873422cc343267c2ce6f23021bebf0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18abe681df61f85eb5be265307410b42 = $(`<div id="html_18abe681df61f85eb5be265307410b42" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_b873422cc343267c2ce6f23021bebf0e.setContent(html_18abe681df61f85eb5be265307410b42);
+            
+        
+
+        marker_99153c6908e76c5907837b71bb7ed52b.bindPopup(popup_b873422cc343267c2ce6f23021bebf0e)
+        ;
+
+        
+    
+    
+            var marker_5c0345104285adb34f3e72da2657dd03 = L.marker(
+                [40.786845, -73.953275],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_7ecd2298d59c27ba3d09febe53bdd581 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2baee59713dcebf6f3e01e25a142f213 = $(`<div id="html_2baee59713dcebf6f3e01e25a142f213" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_7ecd2298d59c27ba3d09febe53bdd581.setContent(html_2baee59713dcebf6f3e01e25a142f213);
+            
+        
+
+        marker_5c0345104285adb34f3e72da2657dd03.bindPopup(popup_7ecd2298d59c27ba3d09febe53bdd581)
+        ;
+
+        
+    
+    
+            var marker_18a667f220ea6653863c7a96ef83face = L.marker(
+                [40.787103, -73.953889],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_0644c73b660ca08414f6ae20c4935139 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84fcf469524ff3da1763a0029b80019d = $(`<div id="html_84fcf469524ff3da1763a0029b80019d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_0644c73b660ca08414f6ae20c4935139.setContent(html_84fcf469524ff3da1763a0029b80019d);
+            
+        
+
+        marker_18a667f220ea6653863c7a96ef83face.bindPopup(popup_0644c73b660ca08414f6ae20c4935139)
+        ;
+
+        
+    
+    
+            var marker_fdced573b3c1219a17947482792296d1 = L.marker(
+                [40.774567, -73.957941],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_37d59fde0a286eea97c710086e7f7b1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dde1f918f25be3db51470b8c0fd7ba4d = $(`<div id="html_dde1f918f25be3db51470b8c0fd7ba4d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_37d59fde0a286eea97c710086e7f7b1c.setContent(html_dde1f918f25be3db51470b8c0fd7ba4d);
+            
+        
+
+        marker_fdced573b3c1219a17947482792296d1.bindPopup(popup_37d59fde0a286eea97c710086e7f7b1c)
+        ;
+
+        
+    
+    
+            var marker_d6c65f3ec5502b6000599b57efa32d14 = L.marker(
+                [40.776003, -73.960233],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ddd20cb3585f59310e820644aa9e32e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf6d7a17e6de04097731ec2fea48cd36 = $(`<div id="html_cf6d7a17e6de04097731ec2fea48cd36" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ddd20cb3585f59310e820644aa9e32e5.setContent(html_cf6d7a17e6de04097731ec2fea48cd36);
+            
+        
+
+        marker_d6c65f3ec5502b6000599b57efa32d14.bindPopup(popup_ddd20cb3585f59310e820644aa9e32e5)
+        ;
+
+        
+    
+    
+            var marker_3f8166de42fa9b5171fd9f2881500e3f = L.marker(
+                [40.776524, -73.959854],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3a2caedc0162ced353edc8deacf24a40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f1b06bccbf1541f81d9851b2dd530b4 = $(`<div id="html_1f1b06bccbf1541f81d9851b2dd530b4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3a2caedc0162ced353edc8deacf24a40.setContent(html_1f1b06bccbf1541f81d9851b2dd530b4);
+            
+        
+
+        marker_3f8166de42fa9b5171fd9f2881500e3f.bindPopup(popup_3a2caedc0162ced353edc8deacf24a40)
+        ;
+
+        
+    
+    
+            var marker_f9bc774f5be5b294487335d4cc5b3271 = L.marker(
+                [40.776077, -73.95941],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_caf3aa5aa62ce2243f0f699424bbd55c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59e81122c662ab1e0c12faa6f4fd7d4f = $(`<div id="html_59e81122c662ab1e0c12faa6f4fd7d4f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_caf3aa5aa62ce2243f0f699424bbd55c.setContent(html_59e81122c662ab1e0c12faa6f4fd7d4f);
+            
+        
+
+        marker_f9bc774f5be5b294487335d4cc5b3271.bindPopup(popup_caf3aa5aa62ce2243f0f699424bbd55c)
+        ;
+
+        
+    
+    
+            var marker_3a394de856938a9cc67ae378d7f0cf3b = L.marker(
+                [40.776112, -73.957565],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_b758ef151f6319a3d3ecf77a21b0f461 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76199a441f9e79f169fcde9c84248a1a = $(`<div id="html_76199a441f9e79f169fcde9c84248a1a" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_b758ef151f6319a3d3ecf77a21b0f461.setContent(html_76199a441f9e79f169fcde9c84248a1a);
+            
+        
+
+        marker_3a394de856938a9cc67ae378d7f0cf3b.bindPopup(popup_b758ef151f6319a3d3ecf77a21b0f461)
+        ;
+
+        
+    
+    
+            var marker_6f6d629c47daec278fc7f81933391175 = L.marker(
+                [40.777095, -73.959438],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9a228be3f63663a4fcebebf5883ed505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f0f15645694bef7143d90e750ede939 = $(`<div id="html_1f0f15645694bef7143d90e750ede939" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9a228be3f63663a4fcebebf5883ed505.setContent(html_1f0f15645694bef7143d90e750ede939);
+            
+        
+
+        marker_6f6d629c47daec278fc7f81933391175.bindPopup(popup_9a228be3f63663a4fcebebf5883ed505)
+        ;
+
+        
+    
+    
+            var marker_be5cda6e58988697b38e862e682cc049 = L.marker(
+                [40.776005, -73.957265],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_c3ce1b9650c17339f47c6ae3c251b015 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7edb6c7adf6b5de2e8ab3203c715176b = $(`<div id="html_7edb6c7adf6b5de2e8ab3203c715176b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_c3ce1b9650c17339f47c6ae3c251b015.setContent(html_7edb6c7adf6b5de2e8ab3203c715176b);
+            
+        
+
+        marker_be5cda6e58988697b38e862e682cc049.bindPopup(popup_c3ce1b9650c17339f47c6ae3c251b015)
+        ;
+
+        
+    
+    
+            var marker_f805910dd76537239f87bb2510f96242 = L.marker(
+                [40.777405, -73.959214],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_98786c18ccb8857021f08b027db60a04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e709fb6699d031c06b6ad3f14ccc1f42 = $(`<div id="html_e709fb6699d031c06b6ad3f14ccc1f42" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_98786c18ccb8857021f08b027db60a04.setContent(html_e709fb6699d031c06b6ad3f14ccc1f42);
+            
+        
+
+        marker_f805910dd76537239f87bb2510f96242.bindPopup(popup_98786c18ccb8857021f08b027db60a04)
+        ;
+
+        
+    
+    
+            var marker_72fd838f51922cb79f207fb64a056713 = L.marker(
+                [40.777287, -73.95834],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_97804b55cada9d807f35ec0d210a09fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37dfdeb4078c4a02634983a3c035b787 = $(`<div id="html_37dfdeb4078c4a02634983a3c035b787" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_97804b55cada9d807f35ec0d210a09fc.setContent(html_37dfdeb4078c4a02634983a3c035b787);
+            
+        
+
+        marker_72fd838f51922cb79f207fb64a056713.bindPopup(popup_97804b55cada9d807f35ec0d210a09fc)
+        ;
+
+        
+    
+    
+            var marker_fabb09e8e030d1b7f6de0f50918e39ff = L.marker(
+                [40.776597, -73.956702],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e696db3b67ddd9dd5d36c41ab1121846 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2df4bc67c762d1bd40e14ccec1ffd09a = $(`<div id="html_2df4bc67c762d1bd40e14ccec1ffd09a" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e696db3b67ddd9dd5d36c41ab1121846.setContent(html_2df4bc67c762d1bd40e14ccec1ffd09a);
+            
+        
+
+        marker_fabb09e8e030d1b7f6de0f50918e39ff.bindPopup(popup_e696db3b67ddd9dd5d36c41ab1121846)
+        ;
+
+        
+    
+    
+            var marker_baddc45a2e4f4d2986039cb6c364205d = L.marker(
+                [40.777114, -73.957929],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2a0d4273d3cf5ce65aba3565357c5251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76825d08dfb15bfb8d6db14432a8b9ac = $(`<div id="html_76825d08dfb15bfb8d6db14432a8b9ac" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2a0d4273d3cf5ce65aba3565357c5251.setContent(html_76825d08dfb15bfb8d6db14432a8b9ac);
+            
+        
+
+        marker_baddc45a2e4f4d2986039cb6c364205d.bindPopup(popup_2a0d4273d3cf5ce65aba3565357c5251)
+        ;
+
+        
+    
+    
+            var marker_b9322de91c87e39a342575fbc39b2c4c = L.marker(
+                [40.77795, -73.956022],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_7a4f738454ef00827c7c891b374b308a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acdadfde270a3138bda76d68308e43bc = $(`<div id="html_acdadfde270a3138bda76d68308e43bc" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_7a4f738454ef00827c7c891b374b308a.setContent(html_acdadfde270a3138bda76d68308e43bc);
+            
+        
+
+        marker_b9322de91c87e39a342575fbc39b2c4c.bindPopup(popup_7a4f738454ef00827c7c891b374b308a)
+        ;
+
+        
+    
+    
+            var marker_fc28518ac66ed0d50244be968818786b = L.marker(
+                [40.780518, -73.953984],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9974c67d70b5f459ab52a72e1d671560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_241af8c32dd640a7f146aa15b44d921c = $(`<div id="html_241af8c32dd640a7f146aa15b44d921c" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9974c67d70b5f459ab52a72e1d671560.setContent(html_241af8c32dd640a7f146aa15b44d921c);
+            
+        
+
+        marker_fc28518ac66ed0d50244be968818786b.bindPopup(popup_9974c67d70b5f459ab52a72e1d671560)
+        ;
+
+        
+    
+    
+            var marker_8ae5d2f5508ffc6ca104e6175272fe41 = L.marker(
+                [40.778011, -73.956166],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2618156a031f863291662ec3f46a9cea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd37f58172701ae51a711f2acfae158 = $(`<div id="html_0fd37f58172701ae51a711f2acfae158" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2618156a031f863291662ec3f46a9cea.setContent(html_0fd37f58172701ae51a711f2acfae158);
+            
+        
+
+        marker_8ae5d2f5508ffc6ca104e6175272fe41.bindPopup(popup_2618156a031f863291662ec3f46a9cea)
+        ;
+
+        
+    
+    
+            var marker_191a4462026be5f5b72800db612cc0d7 = L.marker(
+                [40.777939, -73.956733],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_697e0d57c8dad1a118705b61f09a44c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9095286370768d9dcb7d2092206f881f = $(`<div id="html_9095286370768d9dcb7d2092206f881f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_697e0d57c8dad1a118705b61f09a44c5.setContent(html_9095286370768d9dcb7d2092206f881f);
+            
+        
+
+        marker_191a4462026be5f5b72800db612cc0d7.bindPopup(popup_697e0d57c8dad1a118705b61f09a44c5)
+        ;
+
+        
+    
+    
+            var marker_8fff2de740287aa9419a22c7a76d18f6 = L.marker(
+                [40.778401, -73.95709],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_d72f0eabc0f038e15edee7b5f1ad4ef0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f45dd50a6609ba74ed59c9752464391a = $(`<div id="html_f45dd50a6609ba74ed59c9752464391a" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_d72f0eabc0f038e15edee7b5f1ad4ef0.setContent(html_f45dd50a6609ba74ed59c9752464391a);
+            
+        
+
+        marker_8fff2de740287aa9419a22c7a76d18f6.bindPopup(popup_d72f0eabc0f038e15edee7b5f1ad4ef0)
+        ;
+
+        
+    
+    
+            var marker_3f83f6db43504c0701ba802c76450a4b = L.marker(
+                [40.778401, -73.95709],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ff902d631defa3b422c354239948a053 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a49d1930f0910ed9da579970113ee8e = $(`<div id="html_2a49d1930f0910ed9da579970113ee8e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ff902d631defa3b422c354239948a053.setContent(html_2a49d1930f0910ed9da579970113ee8e);
+            
+        
+
+        marker_3f83f6db43504c0701ba802c76450a4b.bindPopup(popup_ff902d631defa3b422c354239948a053)
+        ;
+
+        
+    
+    
+            var marker_e7fd7e33d9cb28dffcd5eb3b7b6d46d7 = L.marker(
+                [40.777451, -73.956763],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e2a48a6cc9f9d5b17a4bdbfafb0d81ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95cde60a49f47012d3c2befc7f04a0a7 = $(`<div id="html_95cde60a49f47012d3c2befc7f04a0a7" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e2a48a6cc9f9d5b17a4bdbfafb0d81ba.setContent(html_95cde60a49f47012d3c2befc7f04a0a7);
+            
+        
+
+        marker_e7fd7e33d9cb28dffcd5eb3b7b6d46d7.bindPopup(popup_e2a48a6cc9f9d5b17a4bdbfafb0d81ba)
+        ;
+
+        
+    
+    
+            var marker_a85e968d94f47acbfd727a7b0f43aa5f = L.marker(
+                [40.778516, -73.957325],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_b0d6c8ef3699e3992bdd8596ba02f94e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68cf9d0a69e7b4baf36c53c07a4660ea = $(`<div id="html_68cf9d0a69e7b4baf36c53c07a4660ea" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_b0d6c8ef3699e3992bdd8596ba02f94e.setContent(html_68cf9d0a69e7b4baf36c53c07a4660ea);
+            
+        
+
+        marker_a85e968d94f47acbfd727a7b0f43aa5f.bindPopup(popup_b0d6c8ef3699e3992bdd8596ba02f94e)
+        ;
+
+        
+    
+    
+            var marker_95e43d1e6c26d9a207f503f810238bcc = L.marker(
+                [40.778447, -73.957159],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_01004916cc84d49303b757484d6994b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad0544bd86420456fa6eaef4f8905fb4 = $(`<div id="html_ad0544bd86420456fa6eaef4f8905fb4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_01004916cc84d49303b757484d6994b5.setContent(html_ad0544bd86420456fa6eaef4f8905fb4);
+            
+        
+
+        marker_95e43d1e6c26d9a207f503f810238bcc.bindPopup(popup_01004916cc84d49303b757484d6994b5)
+        ;
+
+        
+    
+    
+            var marker_220b4100f9629a193c6127b97f4360f1 = L.marker(
+                [40.778537, -73.955448],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2c0282c3bf8a48307ed5b14ae0c287a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e81a33a47a85137960c60027184323 = $(`<div id="html_17e81a33a47a85137960c60027184323" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2c0282c3bf8a48307ed5b14ae0c287a3.setContent(html_17e81a33a47a85137960c60027184323);
+            
+        
+
+        marker_220b4100f9629a193c6127b97f4360f1.bindPopup(popup_2c0282c3bf8a48307ed5b14ae0c287a3)
+        ;
+
+        
+    
+    
+            var marker_48302849c54049c95981d0e635e7757f = L.marker(
+                [40.779974, -73.957335],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_eb16ad689cda851f7f9ddd01b8a52d3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9399e0b6bb3a1d3d51768fe7ad4238dd = $(`<div id="html_9399e0b6bb3a1d3d51768fe7ad4238dd" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_eb16ad689cda851f7f9ddd01b8a52d3e.setContent(html_9399e0b6bb3a1d3d51768fe7ad4238dd);
+            
+        
+
+        marker_48302849c54049c95981d0e635e7757f.bindPopup(popup_eb16ad689cda851f7f9ddd01b8a52d3e)
+        ;
+
+        
+    
+    
+            var marker_55c615e379f19523a897510aee0a5f50 = L.marker(
+                [40.780393, -73.957028],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a66bf88ff3b64946b5526ca3d60c9541 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f490e6bac5d19f4d2cc090c74ea4e4f = $(`<div id="html_4f490e6bac5d19f4d2cc090c74ea4e4f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a66bf88ff3b64946b5526ca3d60c9541.setContent(html_4f490e6bac5d19f4d2cc090c74ea4e4f);
+            
+        
+
+        marker_55c615e379f19523a897510aee0a5f50.bindPopup(popup_a66bf88ff3b64946b5526ca3d60c9541)
+        ;
+
+        
+    
+    
+            var marker_707350bb078d679cb19d81fb2dc09aed = L.marker(
+                [40.780026, -73.956811],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e5b7e4b112c2fcec48da0959bf8b8362 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eca82c00629fe250ccac9fa6ca23badd = $(`<div id="html_eca82c00629fe250ccac9fa6ca23badd" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e5b7e4b112c2fcec48da0959bf8b8362.setContent(html_eca82c00629fe250ccac9fa6ca23badd);
+            
+        
+
+        marker_707350bb078d679cb19d81fb2dc09aed.bindPopup(popup_e5b7e4b112c2fcec48da0959bf8b8362)
+        ;
+
+        
+    
+    
+            var marker_58791b3dfa0cfdad9c2bd564bf5a42b3 = L.marker(
+                [40.779891, -73.956494],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_f3eb68775674fcfac878b8f8857544a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78934a8ba763b0c94b612b589b4578ba = $(`<div id="html_78934a8ba763b0c94b612b589b4578ba" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_f3eb68775674fcfac878b8f8857544a0.setContent(html_78934a8ba763b0c94b612b589b4578ba);
+            
+        
+
+        marker_58791b3dfa0cfdad9c2bd564bf5a42b3.bindPopup(popup_f3eb68775674fcfac878b8f8857544a0)
+        ;
+
+        
+    
+    
+            var marker_9bed2f8ee01c6ebe1afdf6b784ff770d = L.marker(
+                [40.780511, -73.956945],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_9b400eb276607dc7f2f98b6fcf93971d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40963fe0739ddf29177328fd6ff088f1 = $(`<div id="html_40963fe0739ddf29177328fd6ff088f1" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_9b400eb276607dc7f2f98b6fcf93971d.setContent(html_40963fe0739ddf29177328fd6ff088f1);
+            
+        
+
+        marker_9bed2f8ee01c6ebe1afdf6b784ff770d.bindPopup(popup_9b400eb276607dc7f2f98b6fcf93971d)
+        ;
+
+        
+    
+    
+            var marker_c4968d8a0940c4750a0c889ce68ac82c = L.marker(
+                [40.780478, -73.955793],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a281b4a3afd0ac73ce50a55abd25dc72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec09dbbcff432939ceda95d9bb46001b = $(`<div id="html_ec09dbbcff432939ceda95d9bb46001b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a281b4a3afd0ac73ce50a55abd25dc72.setContent(html_ec09dbbcff432939ceda95d9bb46001b);
+            
+        
+
+        marker_c4968d8a0940c4750a0c889ce68ac82c.bindPopup(popup_a281b4a3afd0ac73ce50a55abd25dc72)
+        ;
+
+        
+    
+    
+            var marker_2255c08676c8ea2e96fe71a8efdbf414 = L.marker(
+                [40.781702, -73.956074],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_f56f367fa6537999e7ef66f08b978f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05adf564ba4722e1acda5804f302c25b = $(`<div id="html_05adf564ba4722e1acda5804f302c25b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_f56f367fa6537999e7ef66f08b978f21.setContent(html_05adf564ba4722e1acda5804f302c25b);
+            
+        
+
+        marker_2255c08676c8ea2e96fe71a8efdbf414.bindPopup(popup_f56f367fa6537999e7ef66f08b978f21)
+        ;
+
+        
+    
+    
+            var marker_7e9e40805fcc0d6f442a3554da9798ca = L.marker(
+                [40.780538, -73.953987],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_544f8ecef6638479b997f7acf05046af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b75d9ee6d518b90b830f544f542365e8 = $(`<div id="html_b75d9ee6d518b90b830f544f542365e8" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_544f8ecef6638479b997f7acf05046af.setContent(html_b75d9ee6d518b90b830f544f542365e8);
+            
+        
+
+        marker_7e9e40805fcc0d6f442a3554da9798ca.bindPopup(popup_544f8ecef6638479b997f7acf05046af)
+        ;
+
+        
+    
+    
+            var marker_04eb5f744b5a4077fc72237072c3dbe6 = L.marker(
+                [40.781925, -73.955915],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_1ce2eb94d0ac9f502677694c0fe3575d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ae2746870574ed559598cfb5e5892ae = $(`<div id="html_8ae2746870574ed559598cfb5e5892ae" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_1ce2eb94d0ac9f502677694c0fe3575d.setContent(html_8ae2746870574ed559598cfb5e5892ae);
+            
+        
+
+        marker_04eb5f744b5a4077fc72237072c3dbe6.bindPopup(popup_1ce2eb94d0ac9f502677694c0fe3575d)
+        ;
+
+        
+    
+    
+            var marker_5ae5f13750b1b0716dbefe82b6ffedf8 = L.marker(
+                [40.781925, -73.955915],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_301b70cbe48b21ac75dd2ef5291055fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26ffab71f8de7b76081d6ad89383076d = $(`<div id="html_26ffab71f8de7b76081d6ad89383076d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_301b70cbe48b21ac75dd2ef5291055fb.setContent(html_26ffab71f8de7b76081d6ad89383076d);
+            
+        
+
+        marker_5ae5f13750b1b0716dbefe82b6ffedf8.bindPopup(popup_301b70cbe48b21ac75dd2ef5291055fb)
+        ;
+
+        
+    
+    
+            var marker_f2a2edf81337486e2238f896fdf169a1 = L.marker(
+                [40.78123, -73.955633],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_3e86d1a40612d267a84a4e1dc8bec769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8122d6b1544f64b6037acc1f2f39a1d4 = $(`<div id="html_8122d6b1544f64b6037acc1f2f39a1d4" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_3e86d1a40612d267a84a4e1dc8bec769.setContent(html_8122d6b1544f64b6037acc1f2f39a1d4);
+            
+        
+
+        marker_f2a2edf81337486e2238f896fdf169a1.bindPopup(popup_3e86d1a40612d267a84a4e1dc8bec769)
+        ;
+
+        
+    
+    
+            var marker_0d96b5270f3e8f2d8596efbe1bd8e818 = L.marker(
+                [40.78177, -73.953918],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_2199cd9edc97d61017554d19d38fdb7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bf6002d78490770b4f6dd68b976311c = $(`<div id="html_0bf6002d78490770b4f6dd68b976311c" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_2199cd9edc97d61017554d19d38fdb7e.setContent(html_0bf6002d78490770b4f6dd68b976311c);
+            
+        
+
+        marker_0d96b5270f3e8f2d8596efbe1bd8e818.bindPopup(popup_2199cd9edc97d61017554d19d38fdb7e)
+        ;
+
+        
+    
+    
+            var marker_238db58dd6b74d43cdcc24948da3cfb0 = L.marker(
+                [40.78177, -73.953918],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_dcd675e1a4507c4e0a0f701caa6193c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5062ac8d2a9924fec6fbc3e8078e6b2 = $(`<div id="html_d5062ac8d2a9924fec6fbc3e8078e6b2" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_dcd675e1a4507c4e0a0f701caa6193c1.setContent(html_d5062ac8d2a9924fec6fbc3e8078e6b2);
+            
+        
+
+        marker_238db58dd6b74d43cdcc24948da3cfb0.bindPopup(popup_dcd675e1a4507c4e0a0f701caa6193c1)
+        ;
+
+        
+    
+    
+            var marker_1b32b2b88ed866df9cf5f30a37d9a09b = L.marker(
+                [40.782473, -73.955513],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_bfad4ecf68c747e474ae6bdedfb2c43e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_966e45ba5ba6ce2f42578baf733cea1d = $(`<div id="html_966e45ba5ba6ce2f42578baf733cea1d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_bfad4ecf68c747e474ae6bdedfb2c43e.setContent(html_966e45ba5ba6ce2f42578baf733cea1d);
+            
+        
+
+        marker_1b32b2b88ed866df9cf5f30a37d9a09b.bindPopup(popup_bfad4ecf68c747e474ae6bdedfb2c43e)
+        ;
+
+        
+    
+    
+            var marker_d36fc41e7f9c68f4e87a9c03cf6c097d = L.marker(
+                [40.782473, -73.955513],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_49379c7f96f40c24f3431309ce944316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_398e1a7d85455035eaf9dc583ddf6ae8 = $(`<div id="html_398e1a7d85455035eaf9dc583ddf6ae8" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_49379c7f96f40c24f3431309ce944316.setContent(html_398e1a7d85455035eaf9dc583ddf6ae8);
+            
+        
+
+        marker_d36fc41e7f9c68f4e87a9c03cf6c097d.bindPopup(popup_49379c7f96f40c24f3431309ce944316)
+        ;
+
+        
+    
+    
+            var marker_3f126b6ddee09bb42bc896e0c9d46a19 = L.marker(
+                [40.781869, -73.95325],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_c5ba457a44733c2e423133ef253db767 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_977b333d73b7011820ffb1b5eb0f7e63 = $(`<div id="html_977b333d73b7011820ffb1b5eb0f7e63" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_c5ba457a44733c2e423133ef253db767.setContent(html_977b333d73b7011820ffb1b5eb0f7e63);
+            
+        
+
+        marker_3f126b6ddee09bb42bc896e0c9d46a19.bindPopup(popup_c5ba457a44733c2e423133ef253db767)
+        ;
+
+        
+    
+    
+            var marker_ccb1a5bbf966b003a53fcfb448bc56a4 = L.marker(
+                [40.783134, -73.954358],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_f6ac9276aa075ca48eac336b2c6df351 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab4676a677cc9378e647f8ddd0154f9d = $(`<div id="html_ab4676a677cc9378e647f8ddd0154f9d" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_f6ac9276aa075ca48eac336b2c6df351.setContent(html_ab4676a677cc9378e647f8ddd0154f9d);
+            
+        
+
+        marker_ccb1a5bbf966b003a53fcfb448bc56a4.bindPopup(popup_f6ac9276aa075ca48eac336b2c6df351)
+        ;
+
+        
+    
+    
+            var marker_7a5f6f1a06bee0382f49a391f83b82dd = L.marker(
+                [40.782999, -73.952086],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a14a27198538604bc9e2147cc4151e89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd59b20dcf0347617388517664b200c3 = $(`<div id="html_dd59b20dcf0347617388517664b200c3" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a14a27198538604bc9e2147cc4151e89.setContent(html_dd59b20dcf0347617388517664b200c3);
+            
+        
+
+        marker_7a5f6f1a06bee0382f49a391f83b82dd.bindPopup(popup_a14a27198538604bc9e2147cc4151e89)
+        ;
+
+        
+    
+    
+            var marker_8b61d79ef011305fd54bd578b69712d8 = L.marker(
+                [40.783694, -73.953689],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_52809fb982b576738e00f3f337033bdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88e7a58c8fab4eb0bdd058593e39bb4e = $(`<div id="html_88e7a58c8fab4eb0bdd058593e39bb4e" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_52809fb982b576738e00f3f337033bdf.setContent(html_88e7a58c8fab4eb0bdd058593e39bb4e);
+            
+        
+
+        marker_8b61d79ef011305fd54bd578b69712d8.bindPopup(popup_52809fb982b576738e00f3f337033bdf)
+        ;
+
+        
+    
+    
+            var marker_3a2463ca36708af1c1319638e53fd177 = L.marker(
+                [40.783183, -73.95248],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ae91fcc0fa5c9eed6e33a82e97ed20ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59707cc5747281b491535145effae735 = $(`<div id="html_59707cc5747281b491535145effae735" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ae91fcc0fa5c9eed6e33a82e97ed20ad.setContent(html_59707cc5747281b491535145effae735);
+            
+        
+
+        marker_3a2463ca36708af1c1319638e53fd177.bindPopup(popup_ae91fcc0fa5c9eed6e33a82e97ed20ad)
+        ;
+
+        
+    
+    
+            var marker_3e70dfecceda3255ef1f0bb7f3e22ba8 = L.marker(
+                [40.783068, -73.952209],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_a974ed93143dffaebd4b6d69b8b19036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc3e1aded37193e620caad066b442e87 = $(`<div id="html_dc3e1aded37193e620caad066b442e87" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_a974ed93143dffaebd4b6d69b8b19036.setContent(html_dc3e1aded37193e620caad066b442e87);
+            
+        
+
+        marker_3e70dfecceda3255ef1f0bb7f3e22ba8.bindPopup(popup_a974ed93143dffaebd4b6d69b8b19036)
+        ;
+
+        
+    
+    
+            var marker_ff4640302f3ed19f75cdfae0073036a3 = L.marker(
+                [40.783844, -73.952144],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_006d052c7ecee0a2678dc1228302aca2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cf8805a8039c86f58e20e1f25f42981 = $(`<div id="html_1cf8805a8039c86f58e20e1f25f42981" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_006d052c7ecee0a2678dc1228302aca2.setContent(html_1cf8805a8039c86f58e20e1f25f42981);
+            
+        
+
+        marker_ff4640302f3ed19f75cdfae0073036a3.bindPopup(popup_006d052c7ecee0a2678dc1228302aca2)
+        ;
+
+        
+    
+    
+            var marker_9b737b5412a9ff7afe965a365c37af67 = L.marker(
+                [40.784243, -73.953042],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_8d0d1c503d4f5d51f9fac4323578ab87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4a1b1a35f5c8b6259ccc38feabbe3f0 = $(`<div id="html_a4a1b1a35f5c8b6259ccc38feabbe3f0" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_8d0d1c503d4f5d51f9fac4323578ab87.setContent(html_a4a1b1a35f5c8b6259ccc38feabbe3f0);
+            
+        
+
+        marker_9b737b5412a9ff7afe965a365c37af67.bindPopup(popup_8d0d1c503d4f5d51f9fac4323578ab87)
+        ;
+
+        
+    
+    
+            var marker_7c9dee9bd77f2cd2277af663da755762 = L.marker(
+                [40.784182, -73.952898],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_8fe0ddd9b297963af267b1fe41633b17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5f5948c610849e78d2decacd57e422b = $(`<div id="html_c5f5948c610849e78d2decacd57e422b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_8fe0ddd9b297963af267b1fe41633b17.setContent(html_c5f5948c610849e78d2decacd57e422b);
+            
+        
+
+        marker_7c9dee9bd77f2cd2277af663da755762.bindPopup(popup_8fe0ddd9b297963af267b1fe41633b17)
+        ;
+
+        
+    
+    
+            var marker_fb211438cc55789c7a9f0e68e6ac177e = L.marker(
+                [40.784182, -73.952898],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_68215eb4ff263248597409769fb34fdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05275896cf09dee0df9f2a90227d561c = $(`<div id="html_05275896cf09dee0df9f2a90227d561c" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_68215eb4ff263248597409769fb34fdd.setContent(html_05275896cf09dee0df9f2a90227d561c);
+            
+        
+
+        marker_fb211438cc55789c7a9f0e68e6ac177e.bindPopup(popup_68215eb4ff263248597409769fb34fdd)
+        ;
+
+        
+    
+    
+            var marker_464ebbc95e50bb9db0cda33894039a1e = L.marker(
+                [40.783523, -73.951335],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_e9bdd296115bbaca0c7807adc1b6d7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3d098c495bd198e3122a799bdf8c070 = $(`<div id="html_a3d098c495bd198e3122a799bdf8c070" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_e9bdd296115bbaca0c7807adc1b6d7a4.setContent(html_a3d098c495bd198e3122a799bdf8c070);
+            
+        
+
+        marker_464ebbc95e50bb9db0cda33894039a1e.bindPopup(popup_e9bdd296115bbaca0c7807adc1b6d7a4)
+        ;
+
+        
+    
+    
+            var marker_d713478f18435f5d40d5918fbc154e35 = L.marker(
+                [40.784239, -73.951132],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_fc95c30da03939ee06fc00f41d10a603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9d8646bbe4782b3b5cf763c89def01c = $(`<div id="html_e9d8646bbe4782b3b5cf763c89def01c" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_fc95c30da03939ee06fc00f41d10a603.setContent(html_e9d8646bbe4782b3b5cf763c89def01c);
+            
+        
+
+        marker_d713478f18435f5d40d5918fbc154e35.bindPopup(popup_fc95c30da03939ee06fc00f41d10a603)
+        ;
+
+        
+    
+    
+            var marker_7ffbd21909b4429f33c054eb65566152 = L.marker(
+                [40.784248, -73.952103],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_167f0c41f6f84e4e47cd755b2ba1c494 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84ff061ab2b93a6fa167f5fd97708b0f = $(`<div id="html_84ff061ab2b93a6fa167f5fd97708b0f" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_167f0c41f6f84e4e47cd755b2ba1c494.setContent(html_84ff061ab2b93a6fa167f5fd97708b0f);
+            
+        
+
+        marker_7ffbd21909b4429f33c054eb65566152.bindPopup(popup_167f0c41f6f84e4e47cd755b2ba1c494)
+        ;
+
+        
+    
+    
+            var marker_0c92788a8f720875f6aa48f549d06740 = L.marker(
+                [40.784248, -73.952103],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_c7804bbe3c88bb35048d6bf3be8834c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bd6fd83126963fdad368922b91dc35b = $(`<div id="html_8bd6fd83126963fdad368922b91dc35b" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_c7804bbe3c88bb35048d6bf3be8834c4.setContent(html_8bd6fd83126963fdad368922b91dc35b);
+            
+        
+
+        marker_0c92788a8f720875f6aa48f549d06740.bindPopup(popup_c7804bbe3c88bb35048d6bf3be8834c4)
+        ;
+
+        
+    
+    
+            var marker_a0a92075027bc16418d356bb6c3f8a08 = L.marker(
+                [40.784794, -73.95245],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_76dc272074da436d5e68b76939a2fa87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42b1e7f71f71285347fc8b72083f11c6 = $(`<div id="html_42b1e7f71f71285347fc8b72083f11c6" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_76dc272074da436d5e68b76939a2fa87.setContent(html_42b1e7f71f71285347fc8b72083f11c6);
+            
+        
+
+        marker_a0a92075027bc16418d356bb6c3f8a08.bindPopup(popup_76dc272074da436d5e68b76939a2fa87)
+        ;
+
+        
+    
+    
+            var marker_eae6d88a9d72ed43936bdb2ad9a485b7 = L.marker(
+                [40.784709, -73.952204],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_90dae077a62f355113c809745ef75f66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_139ec9d47b7312b67ce8fd8e44f8be36 = $(`<div id="html_139ec9d47b7312b67ce8fd8e44f8be36" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_90dae077a62f355113c809745ef75f66.setContent(html_139ec9d47b7312b67ce8fd8e44f8be36);
+            
+        
+
+        marker_eae6d88a9d72ed43936bdb2ad9a485b7.bindPopup(popup_90dae077a62f355113c809745ef75f66)
+        ;
+
+        
+    
+    
+            var marker_b9131ba7b73849d44f22decbf6156352 = L.marker(
+                [40.785512, -73.950113],
+                {}
+            ).addTo(map_9c435b89ff452d3e42704bb12d6065b3);
+        
+    
+        var popup_ad80a30cb1a207ab9e27ed58ebec50d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_392387297dff500d5d2ecc6885c528e6 = $(`<div id="html_392387297dff500d5d2ecc6885c528e6" style="width: 100.0%; height: 100.0%;">Upper East Side-Carnegie Hill</div>`)[0];
+                popup_ad80a30cb1a207ab9e27ed58ebec50d8.setContent(html_392387297dff500d5d2ecc6885c528e6);
+            
+        
+
+        marker_b9131ba7b73849d44f22decbf6156352.bindPopup(popup_ad80a30cb1a207ab9e27ed58ebec50d8)
+        ;
+
+        
+    
+</script>
+</html>
