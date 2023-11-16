@@ -35,22 +35,35 @@ Greenhouse gas emissions in New York City primarily result from burning fossil f
 
 ## HC 7 & 8 
 ![first graph](MeanBoilerCapacity.png)
-Kips Bay has the highes Boiler Capacity (Gross BTU) followed by Hell's Kitchen, the Upper East Side, Greenwich, and finally, Soho. 
+Kips Bay has the highest Mean Boiler Capacity (Gross BTU) followed by Hell's Kitchen, the Upper East Side, Greenwich, and Soho. 
+
 
 ![second graph](MeanTotalGallons(High).png)
-Hell's Kitchen has the highest Mean Total Gallons (High) followed by the Upper East Side, Kips Bay, Greenwich, and finally, Soho. 
+Hell's Kitchen has the highest Mean Total Gallons (High) followed by the Upper East Side, Kips Bay, Greenwich, and Soho. 
+
 
 ![third graph](MeanTotalGallons(Low).png)
-Hell's Kitchen also has the highest Mean Total Gallons (Low) followed by the Upper East Side, Kips Bay, Greenwich, and finally, Soho.
+Hell's Kitchen also has the highest Mean Total Gallons (Low) followed by the Upper East Side, Kips Bay, Greenwich, and Soho.
+
 
 ![fourth graph](MeanTotalMMBTU(High).png)
-Kips Bay has the 
+Kips Bay has the highest Mean Total MMBTU (High) while Soho has the lowest mean. 
+
 
 ![fifth graph](MeanTotalMMBTU(Low).png)
+Kips Bay also has the highest Mean Total MMBTU (Low) while Soho has the lowest mean. 
+
 
 ![sixth graph](BoilerAgeRanges.png)
+Most of the boilers in NYC are between 16 to 30 years old. 
+
 
 ![seventh graph](GreenerGreater.png)
+The Upper East Side has the greatest number of Greener Greater Buildings. 
+
+
+#### Overall Summary
+
 
 
 ## Interactive Map
