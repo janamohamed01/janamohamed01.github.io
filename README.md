@@ -35,12 +35,16 @@ Greenhouse gas emissions in New York City primarily result from burning fossil f
 
 ## HC 7 & 8 
 ![first graph](MeanBoilerCapacity.png)
+Kips Bay has the highes Boiler Capacity (Gross BTU) followed by Hell's Kitchen, the Upper East Side, Greenwich, and finally, Soho. 
 
 ![second graph](MeanTotalGallons(High).png)
+Hell's Kitchen has the highest Mean Total Gallons (High) followed by the Upper East Side, Kips Bay, Greenwich, and finally, Soho. 
 
 ![third graph](MeanTotalGallons(Low).png)
+Hell's Kitchen also has the highest Mean Total Gallons (Low) followed by the Upper East Side, Kips Bay, Greenwich, and finally, Soho.
 
 ![fourth graph](MeanTotalMMBTU(High).png)
+Kips Bay has the 
 
 ![fifth graph](MeanTotalMMBTU(Low).png)
 
