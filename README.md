@@ -33,30 +33,39 @@ New York City has implemented several environmental programs such as the NYC Cle
 Greenhouse gas emissions in New York City primarily result from burning fossil fuels for electricity. The reliance on aging natural gas power plants contributes to greenhouse gas emissions and air pollutants that imapct the city's air quality and contribute to public health concerns. Buildings are the largest source of greenhouse gas emissions in the city. Particularly, large buildings constructed in the 1950s are major contributors to these emissions. Consequently, NYC City Council passed Local Law 97 in 2019, targeting an 80% reduction in greenhouse gas emissions by 2050, with a focus on large buildings. Manhattan, due to its numerous large buildings, is the borough with the highest emissions in the city. Furthermore, energy inefficient appliances further contribute to the city's electricity consumption. Consequently, new legislation starting in 2026 will ban the use of fossil fuels in most new buildings of seven stories or less. Overall, New York City is committed to its efforts to control greenhouse gas emissions and combat climate change.
 
 ## NYC Clean Heat Data and Analysis
+
+
+### Mean Boiler Capacity
 ![first graph](MeanBoilerCapacity.png)
 Kips Bay has the highest Mean Boiler Capacity (Gross BTU) followed by Hell's Kitchen, the Upper East Side, Greenwich, and Soho. In other words, boilers in Kips Bay produce the most heat in comparison to the other neighborhoods analyzed. 
 
 
+### Mean Total Gallons (High)
 ![second graph](MeanTotalGallons(High).png)
 Hell's Kitchen has the highest Mean Total Gallons (High) followed by the Upper East Side, Kips Bay, Greenwich, and Soho. 
 
 
+### Mean Total Gallons (Low)
 ![third graph](MeanTotalGallons(Low).png)
 Hell's Kitchen also has the highest Mean Total Gallons (Low) followed by the Upper East Side, Kips Bay, Greenwich, and Soho.
 
 
+### Mean Total MMBTU (High)
 ![fourth graph](MeanTotalMMBTU(High).png)
-Kips Bay has the highest Mean Total MMBTU (High) while Soho has the lowest mean. 
+Kips Bay has the highest Mean Total MMBTU (High) while Soho has the lowest mean. The difference in MMBTU between Kips Bay and Soho is around 2000 MMBTU. 
 
 
+### Mean Total MMBTU (Low)
 ![fifth graph](MeanTotalMMBTU(Low).png)
 Kips Bay also has the highest Mean Total MMBTU (Low) while Soho has the lowest mean. Essentially, boilers in Kips Bay produce the most heat in comparison to the other neighborhoods analyzed. 
 
 
+### Boiler Age Ranges
 ![sixth graph](BoilerAgeRanges.png)
 Most of the boilers in NYC are between 16 to 30 years old. 
 
 
+### Greener Greater Buildings 
 ![seventh graph](GreenerGreater.png)
 The Upper East Side has the greatest number of Greener Greater Buildings compared to the other neighborhoods analyzed.  
 
